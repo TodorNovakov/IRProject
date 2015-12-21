@@ -1,0 +1,783 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LeadPipe.Net.Lucene</name>
+    </assembly>
+    <members>
+        <member name="T:LeadPipe.Net.Lucene.DocumentToSearchDataTypeConverter`1">
+            <summary>
+            Converts Lucene Document types to SearchData types.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.DocumentToSearchDataTypeConverter`1.Convert(System.Int32,Lucene.Net.Documents.Document,System.Single,System.Single)">
+            <summary>
+            Converts the specified document to search data.
+            </summary>
+            <param name="documentId">The document identifier.</param>
+            <param name="document">The document.</param>
+            <param name="score">The score.</param>
+            <param name="topScore">The top score.</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.DocumentToSearchDataTypeConverter`1.CountScoreStars(System.Single)">
+            <summary>
+            Counts the score stars.
+            </summary>
+            <param name="normalizedScore">The normalized score.</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.DocumentToSearchDataTypeConverter`1.GetDocumentFieldValue(Lucene.Net.Documents.Document,System.String)">
+            <summary>
+            Gets the document field value.
+            </summary>
+            <param name="document">The document.</param>
+            <param name="fieldName">Name of the field.</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.DocumentToSearchDataTypeConverter`1.NormalizeScore(System.Single,System.Single)">
+            <summary>
+            Normalizes the score.
+            </summary>
+            <param name="score">The score.</param>
+            <param name="topScore">The top score.</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeadPipe.Net.Lucene.IDocumentToSearchDataTypeConverter`1">
+            <summary>
+            Converts Lucene Document types to SearchData types.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.IDocumentToSearchDataTypeConverter`1.Convert(System.Int32,Lucene.Net.Documents.Document,System.Single,System.Single)">
+            <summary>
+            Converts the specified document to search data.
+            </summary>
+            <param name="documentId">The document identifier.</param>
+            <param name="document">The document.</param>
+            <param name="score">The score.</param>
+            <param name="topScore">The top score.</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeadPipe.Net.Lucene.ISearchDataToDocumentTypeConverter`1">
+            <summary>
+            Converts SearchData types to Lucene Document types.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearchDataToDocumentTypeConverter`1.Convert(`0)">
+            <summary>
+            Converts the specified search data to a Lucene document.
+            </summary>
+            <param name="searchData">The search data.</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeadPipe.Net.Lucene.ISearcher`1">
+            <summary>
+            Searches the index.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearcher`1.Search(Lucene.Net.Util.Version,Lucene.Net.Store.FSDirectory,System.Int32,System.String)">
+            <summary>
+            Searches Lucene.
+            </summary>
+            <param name="luceneVersion">The lucene version.</param>
+            <param name="fsDirectory">The fs directory.</param>
+            <param name="hitLimit">The hit limit.</param>
+            <param name="input">The input.</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearcher`1.SetDefaultSearchFields(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Sets the default search fields.
+            </summary>
+            <param name="searchFields">The default search fields.</param>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearcher`1.SetSearchFields(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Sets the search fields.
+            </summary>
+            <param name="searchFields">The search fields.</param>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearcher`1.SimpleSearch(Lucene.Net.Util.Version,Lucene.Net.Store.FSDirectory,System.Int32,System.String)">
+            <summary>
+            Performs a simple search.
+            </summary>
+            <param name="luceneVersion">The lucene version.</param>
+            <param name="fsDirectory">The fs directory.</param>
+            <param name="hitLimit">The hit limit.</param>
+            <param name="input">The input.</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeadPipe.Net.Lucene.ISearchIndexClearer">
+            <summary>
+            Clears the search index.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearchIndexClearer.ClearIndex(Lucene.Net.Util.Version,Lucene.Net.Store.FSDirectory,Lucene.Net.Index.IndexWriter.MaxFieldLength)">
+            <summary>
+            Clears the entire index.
+            </summary>
+            <param name="luceneVersion">The lucene version.</param>
+            <param name="fsDirectory">The fs directory.</param>
+            <param name="maxFieldLength">Maximum length of the field.</param>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearchIndexClearer.ClearIndex(System.String,Lucene.Net.Util.Version,Lucene.Net.Store.FSDirectory,Lucene.Net.Index.IndexWriter.MaxFieldLength)">
+            <summary>
+            Clears an item the index.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="luceneVersion">The lucene version.</param>
+            <param name="fsDirectory">The fs directory.</param>
+            <param name="maxFieldLength">Maximum length of the field.</param>
+        </member>
+        <member name="T:LeadPipe.Net.Lucene.ISearchIndexOptimizer">
+            <summary>
+            Optimizes the search index.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearchIndexOptimizer.Optimize(Lucene.Net.Util.Version,Lucene.Net.Store.FSDirectory,Lucene.Net.Index.IndexWriter.MaxFieldLength)">
+            <summary>
+            Optimizes the Lucene index.
+            </summary>
+            <param name="luceneVersion">The lucene version.</param>
+            <param name="fsDirectory">The fs directory.</param>
+            <param name="maxFieldLength">Maximum length of the field.</param>
+        </member>
+        <member name="T:LeadPipe.Net.Lucene.ISearchIndexUpdater`2">
+            <summary>
+            Updates the search index.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearchIndexUpdater`2.UpdateIndex(Lucene.Net.Util.Version,Lucene.Net.Store.FSDirectory,Lucene.Net.Index.IndexWriter.MaxFieldLength)">
+            <summary>
+            Updates the index.
+            </summary>
+            <param name="luceneVersion">The lucene version.</param>
+            <param name="fsDirectory">The fs directory.</param>
+            <param name="maxFieldLength">Maximum length of the field.</param>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearchIndexUpdater`2.UpdateIndex(Lucene.Net.Util.Version,Lucene.Net.Store.FSDirectory,Lucene.Net.Index.IndexWriter.MaxFieldLength,System.Collections.Generic.IEnumerable{`1})">
+            <summary>
+            Updates the index.
+            </summary>
+            <param name="luceneVersion">The lucene version.</param>
+            <param name="fsDirectory">The fs directory.</param>
+            <param name="maxFieldLength">Maximum length of the field.</param>
+            <param name="searchData">The search data.</param>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearchIndexUpdater`2.UpdateIndex(Lucene.Net.Util.Version,Lucene.Net.Store.FSDirectory,Lucene.Net.Index.IndexWriter.MaxFieldLength,System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Updates the index.
+            </summary>
+            <param name="luceneVersion">The lucene version.</param>
+            <param name="fsDirectory">The fs directory.</param>
+            <param name="maxFieldLength">Maximum length of the field.</param>
+            <param name="entities">The entities.</param>
+        </member>
+        <member name="T:LeadPipe.Net.Lucene.ISearchQueryParser">
+            <summary>
+            Parses search queries.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearchQueryParser.ParseQuery(System.String,Lucene.Net.QueryParsers.QueryParser)">
+            <summary>
+            Parses the query.
+            </summary>
+            <param name="searchQuery">The search query.</param>
+            <param name="parser">The parser.</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeadPipe.Net.Lucene.ISearchScoreExplainer">
+            <summary>
+            Explains search scores.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearchScoreExplainer.Explain(Lucene.Net.Util.Version,Lucene.Net.Store.FSDirectory,System.String,System.Int32)">
+            <summary>
+            Explains the search score.
+            </summary>
+            <param name="luceneVersion">The lucene version.</param>
+            <param name="fsDirectory">The fs directory.</param>
+            <param name="input">The input.</param>
+            <param name="resultId">The result identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeadPipe.Net.Lucene.ISearchService`2">
+            <summary>
+            Provides searching services.
+            </summary>
+        </member>
+        <member name="P:LeadPipe.Net.Lucene.ISearchService`2.HitLimit">
+            <summary>
+            Gets or sets the hit limit.
+            </summary>
+            <value>
+            The hit limit.
+            </value>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearchService`2.ClearIndex">
+            <summary>
+            Clears the index.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearchService`2.ClearIndex(System.String)">
+            <summary>
+            Clears the index.
+            </summary>
+            <param name="id">The identifier.</param>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearchService`2.Explain(System.Int32)">
+            <summary>
+            Explains the score for a result.
+            </summary>
+            <param name="resultId">The result identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearchService`2.Optimize">
+            <summary>
+            Optimizes this instance.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearchService`2.Search(System.String)">
+            <summary>
+            Searches the specified input.
+            </summary>
+            <param name="input">The input.</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearchService`2.SetDefaultSearchFields(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Sets the default search fields.
+            </summary>
+            <param name="defaultSearchFields">The default search fields.</param>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearchService`2.SetSearchFields(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Sets the search fields.
+            </summary>
+            <param name="searchFields">The search fields.</param>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearchService`2.SimpleSearch(System.String)">
+            <summary>
+            Simples the search.
+            </summary>
+            <param name="input">The input.</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearchService`2.UpdateIndex">
+            <summary>
+            Updates the index.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearchService`2.UpdateIndex(System.Collections.Generic.IEnumerable{`1})">
+            <summary>
+            Updates the index.
+            </summary>
+            <param name="searchData">The search data.</param>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.ISearchService`2.UpdateIndex(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Updates the index.
+            </summary>
+            <param name="entities">The entities.</param>
+        </member>
+        <member name="T:LeadPipe.Net.Lucene.IEntityToSearchDataTypeConverter`2">
+            <summary>
+            Converts entity types to SearchData types.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.IEntityToSearchDataTypeConverter`2.Convert(`0)">
+            <summary>
+            Converts the specified entity.
+            </summary>
+            <param name="entity">The entity.</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeadPipe.Net.Lucene.ISearchServiceConfiguration">
+            <summary>
+            The search service configuration.
+            </summary>
+        </member>
+        <member name="P:LeadPipe.Net.Lucene.ISearchServiceConfiguration.LuceneVersion">
+            <summary>
+            Gets the lucene version.
+            </summary>
+            <value>
+            The lucene version.
+            </value>
+        </member>
+        <member name="P:LeadPipe.Net.Lucene.ISearchServiceConfiguration.MaxFieldLength">
+            <summary>
+            Gets the maximum length of the field.
+            </summary>
+            <value>
+            The maximum length of the field.
+            </value>
+        </member>
+        <member name="P:LeadPipe.Net.Lucene.ISearchServiceConfiguration.IndexFolder">
+            <summary>
+            Gets the index folder.
+            </summary>
+            <value>
+            The index folder.
+            </value>
+        </member>
+        <member name="P:LeadPipe.Net.Lucene.ISearchServiceConfiguration.FsDirectory">
+            <summary>
+            Gets the fs directory.
+            </summary>
+            <value>
+            The fs directory.
+            </value>
+        </member>
+        <member name="P:LeadPipe.Net.Lucene.ISearchServiceConfiguration.WriteLockSemaphoreFileName">
+            <summary>
+            Gets the write lock semaphore file name.
+            </summary>
+            <value>
+            The write lock semaphore file name.
+            </value>
+        </member>
+        <member name="P:LeadPipe.Net.Lucene.ISearchServiceConfiguration.HitLimit">
+            <summary>
+            Gets the hit limit.
+            </summary>
+            <value>
+            The hit limit.
+            </value>
+        </member>
+        <member name="T:LeadPipe.Net.Lucene.Searcher`1">
+            <summary>
+            Performs searches.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.Searcher`1.#ctor(LeadPipe.Net.Lucene.ISearchQueryParser,LeadPipe.Net.Lucene.IDocumentToSearchDataTypeConverter{`0})">
+            <summary>
+            Initializes a new instance of the <see cref="T:LeadPipe.Net.Lucene.Searcher`1"/> class.
+            </summary>
+            <param name="searchQueryParser">The search query parser.</param>
+            <param name="documentToSearchDataTypeConverter">The document to search data type converter.</param>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.Searcher`1.Search(Lucene.Net.Util.Version,Lucene.Net.Store.FSDirectory,System.Int32,System.String)">
+            <summary>
+            Searches Lucene.
+            </summary>
+            <param name="luceneVersion">The lucene version.</param>
+            <param name="fsDirectory">The fs directory.</param>
+            <param name="hitLimit">The hit limit.</param>
+            <param name="input">The input.</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.Searcher`1.SetDefaultSearchFields(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Sets the default search fields.
+            </summary>
+            <param name="searchFields">The default search fields.</param>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.Searcher`1.SetSearchFields(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Sets the search fields.
+            </summary>
+            <param name="searchFields">The search fields.</param>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.Searcher`1.SimpleSearch(Lucene.Net.Util.Version,Lucene.Net.Store.FSDirectory,System.Int32,System.String)">
+            <summary>
+            Performs a simple search.
+            </summary>
+            <param name="luceneVersion">The lucene version.</param>
+            <param name="fsDirectory">The fs directory.</param>
+            <param name="hitLimit">The hit limit.</param>
+            <param name="input">The input.</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.Searcher`1.MapDocumentsToSearchData(System.Collections.Generic.IEnumerable{Lucene.Net.Search.ScoreDoc},Lucene.Net.Search.IndexSearcher)">
+            <summary>
+            Maps the documents to search data.
+            </summary>
+            <param name="scoreDocuments">The score documents.</param>
+            <param name="indexSearcher">The index searcher.</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.Searcher`1.PerformSearch(Lucene.Net.Util.Version,Lucene.Net.Store.FSDirectory,System.Int32,System.String)">
+            <summary>
+            Performs the search.
+            </summary>
+            <param name="luceneVersion">The lucene version.</param>
+            <param name="fsDirectory">The fs directory.</param>
+            <param name="hitLimit">The hit limit.</param>
+            <param name="searchQuery">The search query.</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeadPipe.Net.Lucene.SearchServiceConfiguration">
+            <summary>
+            The search service configuration.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchServiceConfiguration.#ctor(Lucene.Net.Util.Version,Lucene.Net.Index.IndexWriter.MaxFieldLength,System.String,System.String,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:LeadPipe.Net.Lucene.SearchServiceConfiguration" /> class.
+            </summary>
+            <param name="luceneVersion">The lucene version.</param>
+            <param name="maxFieldLength">Maximum length of the field.</param>
+            <param name="indexFolder">The index folder.</param>
+            <param name="writeLockSemaphoreFileName">Name of the write lock semaphore file.</param>
+            <param name="hitLimit">The hit limit.</param>
+        </member>
+        <member name="P:LeadPipe.Net.Lucene.SearchServiceConfiguration.LuceneVersion">
+            <summary>
+            Gets the Lucene version.
+            </summary>
+            <value>
+            The lucene version.
+            </value>
+        </member>
+        <member name="P:LeadPipe.Net.Lucene.SearchServiceConfiguration.MaxFieldLength">
+            <summary>
+            Gets the maximum length of the field.
+            </summary>
+            <value>
+            The maximum length of the field.
+            </value>
+        </member>
+        <member name="P:LeadPipe.Net.Lucene.SearchServiceConfiguration.IndexFolder">
+            <summary>
+            Gets the index folder.
+            </summary>
+            <value>
+            The index folder.
+            </value>
+        </member>
+        <member name="P:LeadPipe.Net.Lucene.SearchServiceConfiguration.FsDirectory">
+            <summary>
+            Gets the fs directory.
+            </summary>
+            <value>
+            The fs directory.
+            </value>
+        </member>
+        <member name="P:LeadPipe.Net.Lucene.SearchServiceConfiguration.WriteLockSemaphoreFileName">
+            <summary>
+            Gets the write lock semaphore file name.
+            </summary>
+            <value>
+            The write lock semaphore file name.
+            </value>
+        </member>
+        <member name="P:LeadPipe.Net.Lucene.SearchServiceConfiguration.HitLimit">
+            <summary>
+            Gets the hit limit.
+            </summary>
+            <value>
+            The hit limit.
+            </value>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchServiceConfiguration.GetDirectory">
+            <summary>
+            Gets the directory.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:LeadPipe.Net.Lucene.SearchResult`1">
+            <summary>
+            The search result.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchResult`1.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:LeadPipe.Net.Lucene.SearchResult`1"/> class.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchResult`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:LeadPipe.Net.Lucene.SearchResult`1"/> class.
+            </summary>
+            <param name="results">The results.</param>
+            <param name="totalHitCount">The total hit count.</param>
+        </member>
+        <member name="P:LeadPipe.Net.Lucene.SearchResult`1.Results">
+            <summary>
+            Gets or sets the results.
+            </summary>
+            <value>
+            The results.
+            </value>
+        </member>
+        <member name="P:LeadPipe.Net.Lucene.SearchResult`1.TotalHitCount">
+            <summary>
+            Gets or sets the total hit count.
+            </summary>
+            <value>
+            The total hit count.
+            </value>
+        </member>
+        <member name="T:LeadPipe.Net.Lucene.SearchIndexClearer">
+            <summary>
+            Clears the search index.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchIndexClearer.ClearIndex(Lucene.Net.Util.Version,Lucene.Net.Store.FSDirectory,Lucene.Net.Index.IndexWriter.MaxFieldLength)">
+            <summary>
+            Clears the entire index.
+            </summary>
+            <param name="luceneVersion">The lucene version.</param>
+            <param name="fsDirectory">The fs directory.</param>
+            <param name="maxFieldLength">Maximum length of the field.</param>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchIndexClearer.ClearIndex(System.String,Lucene.Net.Util.Version,Lucene.Net.Store.FSDirectory,Lucene.Net.Index.IndexWriter.MaxFieldLength)">
+            <summary>
+            Clears an item from the index.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="luceneVersion">The lucene version.</param>
+            <param name="fsDirectory">The fs directory.</param>
+            <param name="maxFieldLength">Maximum length of the field.</param>
+        </member>
+        <member name="T:LeadPipe.Net.Lucene.SearchIndexOptimizer">
+            <summary>
+            Optimizes the search index.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchIndexOptimizer.Optimize(Lucene.Net.Util.Version,Lucene.Net.Store.FSDirectory,Lucene.Net.Index.IndexWriter.MaxFieldLength)">
+            <summary>
+            Optimizes the Lucene index.
+            </summary>
+            <param name="luceneVersion">The lucene version.</param>
+            <param name="fsDirectory">The fs directory.</param>
+            <param name="maxFieldLength">Maximum length of the field.</param>
+        </member>
+        <member name="T:LeadPipe.Net.Lucene.SearchIndexUpdater`2">
+            <summary>
+            Updates the search index.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchIndexUpdater`2.#ctor(LeadPipe.Net.Lucene.ISearchDataToDocumentTypeConverter{`1},LeadPipe.Net.Lucene.IEntityToSearchDataTypeConverter{`0,`1})">
+            <summary>
+            Initializes a new instance of the <see cref="T:LeadPipe.Net.Lucene.SearchIndexUpdater`2"/> class.
+            </summary>
+            <param name="searchDataToDocumentTypeConverter">The search data to document type converter.</param>
+            <param name="entityToSearchDataTypeConverter">The entity to search data type converter.</param>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchIndexUpdater`2.UpdateIndex(Lucene.Net.Util.Version,Lucene.Net.Store.FSDirectory,Lucene.Net.Index.IndexWriter.MaxFieldLength)">
+            <summary>
+            Updates the index.
+            </summary>
+            <param name="luceneVersion">The lucene version.</param>
+            <param name="fsDirectory">The fs directory.</param>
+            <param name="maxFieldLength">Maximum length of the field.</param>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchIndexUpdater`2.UpdateIndex(Lucene.Net.Util.Version,Lucene.Net.Store.FSDirectory,Lucene.Net.Index.IndexWriter.MaxFieldLength,System.Collections.Generic.IEnumerable{`1})">
+            <summary>
+            Updates the index.
+            </summary>
+            <param name="luceneVersion">The lucene version.</param>
+            <param name="fsDirectory">The fs directory.</param>
+            <param name="maxFieldLength">Maximum length of the field.</param>
+            <param name="searchData"></param>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchIndexUpdater`2.UpdateIndex(Lucene.Net.Util.Version,Lucene.Net.Store.FSDirectory,Lucene.Net.Index.IndexWriter.MaxFieldLength,System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Updates the index.
+            </summary>
+            <param name="luceneVersion">The lucene version.</param>
+            <param name="fsDirectory">The fs directory.</param>
+            <param name="maxFieldLength">Maximum length of the field.</param>
+            <param name="entities"></param>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchIndexUpdater`2.AddEntityToIndex(`1,Lucene.Net.Index.IndexWriter)">
+            <summary>
+            Adds an entity to the index.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="id">The identifier.</param>
+            <param name="searchData">The search data.</param>
+            <param name="indexWriter">The index writer.</param>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchIndexUpdater`2.DeleteEntityFromIndex(`1,Lucene.Net.Index.IndexWriter)">
+            <summary>
+            Deletes a single entity from the index.
+            </summary>
+            <param name="searchData">The search data.</param>
+            <param name="indexWriter">The index writer.</param>
+        </member>
+        <member name="T:LeadPipe.Net.Lucene.SearchQueryParser">
+            <summary>
+            Parses search queries.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchQueryParser.ParseQuery(System.String,Lucene.Net.QueryParsers.QueryParser)">
+            <summary>
+            Parses the query.
+            </summary>
+            <param name="searchQuery">The search query.</param>
+            <param name="parser">The parser.</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeadPipe.Net.Lucene.SearchScoreExplainer">
+            <summary>
+            Explains search scores.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchScoreExplainer.#ctor(LeadPipe.Net.Lucene.ISearchQueryParser)">
+            <summary>
+            Initializes a new instance of the <see cref="T:LeadPipe.Net.Lucene.SearchScoreExplainer"/> class.
+            </summary>
+            <param name="searchQueryParser">The search query parser.</param>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchScoreExplainer.Explain(Lucene.Net.Util.Version,Lucene.Net.Store.FSDirectory,System.String,System.Int32)">
+            <summary>
+            Explains the search score for a result.
+            </summary>
+            <param name="luceneVersion">The lucene version.</param>
+            <param name="fsDirectory">The fs directory.</param>
+            <param name="input">The input.</param>
+            <param name="resultId">The result identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchScoreExplainer.PerformExplain(Lucene.Net.Util.Version,Lucene.Net.Store.FSDirectory,System.String,System.Int32)">
+            <summary>
+            Performs the explanation.
+            </summary>
+            <param name="luceneVersion">The lucene version.</param>
+            <param name="fsDirectory">The fs directory.</param>
+            <param name="searchQuery">The search query.</param>
+            <param name="resultId">The result identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="T:LeadPipe.Net.Lucene.SearchService`2">
+            <summary>
+            The search service.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchService`2.#ctor(LeadPipe.Net.Lucene.ISearchServiceConfiguration,LeadPipe.Net.Lucene.ISearchIndexClearer,LeadPipe.Net.Lucene.ISearchIndexOptimizer,LeadPipe.Net.Lucene.ISearcher{`1},LeadPipe.Net.Lucene.ISearchIndexUpdater{`0,`1},LeadPipe.Net.Lucene.ISearchScoreExplainer)">
+            <summary>
+            Initializes a new instance of the <see cref="T:LeadPipe.Net.Lucene.SearchService`2" /> class.
+            </summary>
+            <param name="configuration">The configuration.</param>
+            <param name="searchIndexClearer">The search index clearer.</param>
+            <param name="searchIndexOptimizer">The search index optimizer.</param>
+            <param name="searcher">The searcher.</param>
+            <param name="searchIndexUpdater">The search index updater.</param>
+            <param name="searchScoreExplainer">The search score explainer.</param>
+        </member>
+        <member name="P:LeadPipe.Net.Lucene.SearchService`2.FsDirectory">
+            <summary>
+            Gets or sets the Lucene file system directory.
+            </summary>
+            <value>
+            The Lucene file system directory.
+            </value>
+        </member>
+        <member name="P:LeadPipe.Net.Lucene.SearchService`2.HitLimit">
+            <summary>
+            Gets or sets the hit limit.
+            </summary>
+            <value>
+            The hit limit.
+            </value>
+        </member>
+        <member name="P:LeadPipe.Net.Lucene.SearchService`2.IndexFolder">
+            <summary>
+            Gets the index folder.
+            </summary>
+            <value>
+            The index folder.
+            </value>
+        </member>
+        <member name="P:LeadPipe.Net.Lucene.SearchService`2.LastInput">
+            <summary>
+            Gets or sets the last query input.
+            </summary>
+            <value>
+            The last query input.
+            </value>
+        </member>
+        <member name="P:LeadPipe.Net.Lucene.SearchService`2.LastSearchResult">
+            <summary>
+            Gets or sets the last search result.
+            </summary>
+            <value>
+            The last search result.
+            </value>
+        </member>
+        <member name="P:LeadPipe.Net.Lucene.SearchService`2.LuceneVersion">
+            <summary>
+            Gets the lucene version.
+            </summary>
+            <value>
+            The lucene version.
+            </value>
+        </member>
+        <member name="P:LeadPipe.Net.Lucene.SearchService`2.MaxFieldLength">
+            <summary>
+            Gets the maximum length of the field.
+            </summary>
+            <value>
+            The maximum length of the field.
+            </value>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchService`2.ClearIndex">
+            <summary>
+            Clears the index.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchService`2.ClearIndex(System.String)">
+            <summary>
+            Clears the index.
+            </summary>
+            <param name="key">The key.</param>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchService`2.Explain(System.Int32)">
+            <summary>
+            Explains the specified input.
+            </summary>
+            <param name="resultId">The result identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchService`2.Optimize">
+            <summary>
+            Optimizes this instance.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchService`2.Search(System.String)">
+            <summary>
+            Searches the specified input.
+            </summary>
+            <param name="input">The input.</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchService`2.SetDefaultSearchFields(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Sets the default search fields.
+            </summary>
+            <param name="defaultSearchFields">The default search fields.</param>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchService`2.SetSearchFields(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Sets the search fields.
+            </summary>
+            <param name="searchFields">The search fields.</param>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchService`2.SimpleSearch(System.String)">
+            <summary>
+            Simples the search.
+            </summary>
+            <param name="input">The input.</param>
+            <returns></returns>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchService`2.UpdateIndex">
+            <summary>
+            Updates the index.
+            </summary>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchService`2.UpdateIndex(System.Collections.Generic.IEnumerable{`1})">
+            <summary>
+            Updates the index.
+            </summary>
+            <param name="searchData"></param>
+        </member>
+        <member name="M:LeadPipe.Net.Lucene.SearchService`2.UpdateIndex(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Updates the index.
+            </summary>
+            <param name="entities"></param>
+        </member>
+    </members>
+</doc>

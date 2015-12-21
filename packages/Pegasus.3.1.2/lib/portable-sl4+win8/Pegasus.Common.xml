@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pegasus.Common</name>
+    </assembly>
+    <members>
+        <member name="T:Pegasus.Common.CacheKey">
+            <summary>
+            A high-performance cache key for rule memoization.
+            </summary>
+        </member>
+        <member name="M:Pegasus.Common.CacheKey.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Pegasus.Common.CacheKey"/> class.
+            </summary>
+            <param name="ruleName">The name of the rule.</param>
+            <param name="stateKey">The state key of the current cursor.</param>
+            <param name="location">The location of the current cursor.</param>
+        </member>
+        <member name="M:Pegasus.Common.CacheKey.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object"/> is equal to the current <see cref="T:Pegasus.Common.CacheKey"/>.
+            </summary>
+            <param name="obj">The object to compare with the current object.</param>
+            <returns><c>true</c> if the specified object is equal to the current object; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:Pegasus.Common.CacheKey.GetHashCode">
+            <summary>
+            Serves as a hash function for a particular type.
+            </summary>
+            <returns>A hash code for the current <see cref="T:Pegasus.Common.CacheKey"/>.</returns>
+        </member>
+        <member name="T:Pegasus.Common.Cursor">
+            <summary>
+            Represents a location within a parsing subject.
+            </summary>
+        </member>
+        <member name="M:Pegasus.Common.Cursor.#ctor(System.String,System.Int32,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Pegasus.Common.Cursor"/> class.
+            </summary>
+            <param name="subject">The parsing subject.</param>
+            <param name="location">The location within the parsing subject.</param>
+            <param name="fileName">The filename of the subject.</param>
+        </member>
+        <member name="M:Pegasus.Common.Cursor.op_Inequality(Pegasus.Common.Cursor,Pegasus.Common.Cursor)">
+            <summary>
+            Determines whether two specified cursors represent different locations.
+            </summary>
+            <param name="left">The first <see cref="T:Pegasus.Common.Cursor"/> to compare, or null.</param>
+            <param name="right">The second <see cref="T:Pegasus.Common.Cursor"/> to compare, or null.</param>
+            <returns>true if the value of <paramref name="left"/> is different from the value of <paramref name="right"/>; otherwise, false.</returns>
+        </member>
+        <member name="M:Pegasus.Common.Cursor.op_Equality(Pegasus.Common.Cursor,Pegasus.Common.Cursor)">
+            <summary>
+            Determines whether two specified cursors represent the same location.
+            </summary>
+            <param name="left">The first <see cref="T:Pegasus.Common.Cursor"/> to compare, or null.</param>
+            <param name="right">The second <see cref="T:Pegasus.Common.Cursor"/> to compare, or null.</param>
+            <returns>true if the value of <paramref name="left"/> is the same as the value of <paramref name="right"/>; otherwise, false.</returns>
+        </member>
+        <member name="M:Pegasus.Common.Cursor.Advance(System.Int32)">
+            <summary>
+            Returns a new <see cref="T:Pegasus.Common.Cursor"/> representing the location after consuming the given <see cref="T:Pegasus.Common.ParseResult`1"/>.
+            </summary>
+            <param name="count">The number of characters to advance.</param>
+            <returns>A <see cref="T:Pegasus.Common.Cursor"/> that represents the location after consuming the given <see cref="T:Pegasus.Common.ParseResult`1"/>.</returns>
+        </member>
+        <member name="M:Pegasus.Common.Cursor.Equals(System.Object)">
+            <summary>
+            Determines whether the specified object is equal to the current <see cref="T:Pegasus.Common.Cursor"/>.
+            </summary>
+            <param name="obj">An object to compare with this <see cref="T:Pegasus.Common.Cursor"/>.</param>
+            <returns>true if the objects are considered equal; otherwise, false.</returns>
+        </member>
+        <member name="M:Pegasus.Common.Cursor.Equals(Pegasus.Common.Cursor)">
+            <summary>
+            Determines whether the specified <see cref="T:Pegasus.Common.Cursor"/> is equal to the current <see cref="T:Pegasus.Common.Cursor"/>.
+            </summary>
+            <param name="other">A <see cref="T:Pegasus.Common.Cursor"/> to compare with this <see cref="T:Pegasus.Common.Cursor"/>.</param>
+            <returns>true if the cursors represent the same location at the same state; otherwise, false.</returns>
+        </member>
+        <member name="M:Pegasus.Common.Cursor.GetHashCode">
+            <summary>
+            Serves as a hash function for this <see cref="T:Pegasus.Common.Cursor"/>.
+            </summary>
+            <returns>A hash code for the current <see cref="T:Pegasus.Common.Cursor"/>.</returns>
+        </member>
+        <member name="M:Pegasus.Common.Cursor.Touch">
+            <summary>
+            Creates an identical cursor with a unique <see cref="P:Pegasus.Common.Cursor.StateKey"/>.
+            </summary>
+            <returns>A unique cursor.</returns>
+        </member>
+        <member name="M:Pegasus.Common.Cursor.WithMutability(System.Boolean)">
+            <summary>
+            Returns a <see cref="T:Pegasus.Common.Cursor"/> with the specified mutability.
+            </summary>
+            <param name="mutable">A value indicating whether or not the resulting <see cref="T:Pegasus.Common.Cursor"/> should be mutable.</param>
+            <returns>A <see cref="T:Pegasus.Common.Cursor"/> with the specified mutability.</returns>
+        </member>
+        <member name="P:Pegasus.Common.Cursor.Column">
+            <summary>
+            Gets the column number represented by the location.
+            </summary>
+        </member>
+        <member name="P:Pegasus.Common.Cursor.FileName">
+            <summary>
+            Gets the filename of the parsing subject.
+            </summary>
+        </member>
+        <member name="P:Pegasus.Common.Cursor.Line">
+            <summary>
+            Gets the line number of the cursor.
+            </summary>
+        </member>
+        <member name="P:Pegasus.Common.Cursor.Location">
+            <summary>
+            Gets the location within the parsing subject.
+            </summary>
+        </member>
+        <member name="P:Pegasus.Common.Cursor.StateKey">
+            <summary>
+            Gets a hash code that varies with this cursor's state object.
+            </summary>
+            <remarks>This value, along with this cursor's location uniquely identify the parsing state.</remarks>
+        </member>
+        <member name="P:Pegasus.Common.Cursor.Subject">
+            <summary>
+            Gets the parsing subject.
+            </summary>
+        </member>
+        <member name="P:Pegasus.Common.Cursor.Item(System.String)">
+            <summary>
+            Gets the state value with the specified key.
+            </summary>
+            <param name="key">The key of the state value.</param>
+            <returns>The state vale.</returns>
+        </member>
+        <member name="T:Pegasus.Common.IParseResult`1">
+            <summary>
+            Encapsulates the success or failure of a particular parsing operation along with the result of operation.
+            </summary>
+            <typeparam name="T">The type of the parsing operation's result.</typeparam>
+        </member>
+        <member name="P:Pegasus.Common.IParseResult`1.EndCursor">
+            <summary>
+            Gets the ending cursor of the match.
+            </summary>
+        </member>
+        <member name="P:Pegasus.Common.IParseResult`1.StartCursor">
+            <summary>
+            Gets the starting cursor of the match.
+            </summary>
+        </member>
+        <member name="P:Pegasus.Common.IParseResult`1.Value">
+            <summary>
+            Gets the resulting value of the parsing operation.
+            </summary>
+        </member>
+        <member name="T:Pegasus.Common.ParseResult`1">
+            <summary>
+            Encapsulates the success or failure of a particular parsing operation along with the result of operation.
+            </summary>
+            <typeparam name="T">The type of the parsing operation's result.</typeparam>
+        </member>
+        <member name="M:Pegasus.Common.ParseResult`1.#ctor(Pegasus.Common.Cursor,Pegasus.Common.Cursor,`0)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Pegasus.Common.ParseResult`1"/> class.
+            </summary>
+            <remarks>
+            A non-null parse result indicates success, whereas a null result indicates failure.
+            </remarks>
+            <param name="startCursor">The starting cursor of the match.</param>
+            <param name="endCursor">The ending cursor of the match.</param>
+            <param name="value">The value of the match.</param>
+        </member>
+        <member name="M:Pegasus.Common.ParseResult`1.op_Inequality(Pegasus.Common.ParseResult{`0},Pegasus.Common.ParseResult{`0})">
+            <summary>
+            Determines whether two specified parse results have different values.
+            </summary>
+            <param name="left">The first <see cref="T:Pegasus.Common.ParseResult`1"/> to compare, or null.</param>
+            <param name="right">The second <see cref="T:Pegasus.Common.ParseResult`1"/> to compare, or null.</param>
+            <returns>true if the value of <paramref name="left"/> is different from the value of <paramref name="right"/>; otherwise, false.</returns>
+        </member>
+        <member name="M:Pegasus.Common.ParseResult`1.op_Equality(Pegasus.Common.ParseResult{`0},Pegasus.Common.ParseResult{`0})">
+            <summary>
+            Determines whether two specified parse results have the same value.
+            </summary>
+            <param name="left">The first <see cref="T:Pegasus.Common.ParseResult`1"/> to compare, or null.</param>
+            <param name="right">The second <see cref="T:Pegasus.Common.ParseResult`1"/> to compare, or null.</param>
+            <returns>true if the value of <paramref name="left"/> is the same as the value of <paramref name="right"/>; otherwise, false.</returns>
+        </member>
+        <member name="M:Pegasus.Common.ParseResult`1.Equals(System.Object)">
+            <summary>
+            Determines whether the specified object is equal to the current <see cref="T:Pegasus.Common.ParseResult`1"/>.
+            </summary>
+            <param name="obj">An object to compare with this <see cref="T:Pegasus.Common.ParseResult`1"/>.</param>
+            <returns>true if the objects are considered equal; otherwise, false.</returns>
+        </member>
+        <member name="M:Pegasus.Common.ParseResult`1.Equals(Pegasus.Common.ParseResult{`0})">
+            <summary>
+            Determines whether the specified <see cref="T:Pegasus.Common.ParseResult`1"/> is equal to the current <see cref="T:Pegasus.Common.ParseResult`1"/>.
+            </summary>
+            <param name="other">A <see cref="T:Pegasus.Common.ParseResult`1"/> to compare with this <see cref="T:Pegasus.Common.ParseResult`1"/>.</param>
+            <returns>true if the parse results are considered equal; otherwise, false.</returns>
+        </member>
+        <member name="M:Pegasus.Common.ParseResult`1.GetHashCode">
+            <summary>
+            Serves as a hash function for this <see cref="T:Pegasus.Common.ParseResult`1"/>.
+            </summary>
+            <returns>A hash code for the current <see cref="T:Pegasus.Common.ParseResult`1"/>.</returns>
+        </member>
+        <member name="P:Pegasus.Common.ParseResult`1.EndCursor">
+            <summary>
+            Gets the ending cursor of the match.
+            </summary>
+        </member>
+        <member name="P:Pegasus.Common.ParseResult`1.StartCursor">
+            <summary>
+            Gets the starting cursor of the match.
+            </summary>
+        </member>
+        <member name="P:Pegasus.Common.ParseResult`1.Value">
+            <summary>
+            Gets the resulting value of the parsing operation.
+            </summary>
+        </member>
+    </members>
+</doc>
