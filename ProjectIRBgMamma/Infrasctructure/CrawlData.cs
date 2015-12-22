@@ -50,10 +50,10 @@ namespace ProjectIRBgMamma.Infrasctructure
             //NOTE: This is lambda is run after the regular ICrawlDecsionMaker.ShouldCrawlPage method is run.
             crawler.ShouldCrawlPage((pageToCrawl, crawlContext) =>
             {
-                if (pageToCrawl.Uri.AbsoluteUri.Contains("ghost"))
-                    return new CrawlDecision { Allow = false, Reason = "Scared of ghosts" };
+                if (pageToCrawl.Uri.AbsoluteUri.Contains("topic=") || pageToCrawl.Uri.AbsoluteUri.Contains("board=376") || pageToCrawl.Uri.AbsoluteUri.Contains("board=376."))
+                    return new CrawlDecision { Allow = true };
 
-                return new CrawlDecision { Allow = true };
+                return new CrawlDecision { Allow = false, Reason = "Scared of ghosts" };
             });
 
             //Register a lambda expression that will tell Abot to not download the page content for any page after 5th.
@@ -74,7 +74,9 @@ namespace ProjectIRBgMamma.Infrasctructure
                 if (!crawledPage.IsInternal)
                     return new CrawlDecision { Allow = false, Reason = "We dont crawl links of external pages" };
 
-                return new CrawlDecision { Allow = true };
+                if (crawledPage.Uri.AbsoluteUri.Contains("board=376.") || crawledPage.Uri.AbsoluteUri.Contains("topic=") || crawledPage.Uri.AbsoluteUri.Contains("board=376"))
+                    return new CrawlDecision { Allow = true };
+                return new CrawlDecision { Allow = false, Reason = "We dont crawl links of external pages" };
             });
 
             return crawler;
@@ -104,6 +106,7 @@ namespace ProjectIRBgMamma.Infrasctructure
         public static void crawler_ProcessPageCrawlStarting(object sender, PageCrawlStartingArgs e)
         {
             //Process data
+            var crawledPage = e.PageToCrawl;
         }
 
         public static void crawler_ProcessPageCrawlCompleted(object sender, PageCrawlCompletedArgs e)
@@ -123,10 +126,6 @@ namespace ProjectIRBgMamma.Infrasctructure
                 }
             }
 
-
-
-            //string html1 = doc.DocumentNode.OuterHtml;
-            //var b = ExtractText(crawledPage.HtmlDocument.ToString());
             var a = ExtractText(html);
         }
 

@@ -2176,3 +2176,1201 @@
 [2015-12-21 12:02:27,968] [7  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?topic=880407.0;topicrefid=19] Parent:[http://www.bg-mamma.com/index.php?topic=880407.0;topicrefid=19] Retry:[0]
 [2015-12-21 12:02:32,418] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=showNews;id=5800] Parent:[http://www.bg-mamma.com/index.php?topic=880407.0;topicrefid=19] Retry:[0]
 [2015-12-21 12:02:38,291] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=noh4mkrd8m461esdoej9jvcbp5&action=register] Parent:[http://www.bg-mamma.com/index.php?topic=880407.0;topicrefid=19] Retry:[0]
+[2015-12-21 13:40:11,102] [5  ] [INFO ] - About to crawl site [http://www.bg-mamma.com/index.php?board=376]
+[2015-12-21 13:40:11,124] [5  ] [INFO ] - Configuration Values:
+[2015-12-21 13:40:11,124] [5  ] [INFO ] -   Abot Version: 1.5.0.138
+[2015-12-21 13:40:11,125] [5  ] [INFO ] -   MaxConcurrentThreads: 3
+[2015-12-21 13:40:11,125] [5  ] [INFO ] -   MaxPagesToCrawl: 100000
+[2015-12-21 13:40:11,125] [5  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-21 13:40:11,125] [5  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-21 13:40:11,125] [5  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-21 13:40:11,125] [5  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-21 13:40:11,125] [5  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-21 13:40:11,125] [5  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-21 13:40:11,126] [5  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-21 13:40:11,126] [5  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-21 13:40:11,126] [5  ] [INFO ] -   IsRespectUrlNamedAnchorOrHashbangEnabled: False
+[2015-12-21 13:40:11,126] [5  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-21 13:40:11,126] [5  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-21 13:40:11,126] [5  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-21 13:40:11,126] [5  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-21 13:40:11,126] [5  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-21 13:40:11,126] [5  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-21 13:40:11,126] [5  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-21 13:40:11,126] [5  ] [INFO ] -   IsSslCertificateValidationEnabled: False
+[2015-12-21 13:40:11,126] [5  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-21 13:40:11,126] [5  ] [INFO ] -   MaxMemoryUsageInMb: 700
+[2015-12-21 13:40:11,127] [5  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-21 13:40:11,127] [5  ] [INFO ] -   MaxCrawlDepth: 100000
+[2015-12-21 13:40:11,127] [5  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-21 13:40:11,127] [5  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-21 13:40:11,127] [5  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-21 13:40:11,127] [5  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-21 13:40:11,127] [5  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-21 13:40:11,127] [5  ] [INFO ] -   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: False
+[2015-12-21 13:40:11,127] [5  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-21 13:40:11,127] [5  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-21 13:40:11,128] [5  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-21 13:40:11,128] [5  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-12-21 13:40:11,128] [5  ] [INFO ] -   IsAlwaysLogin: False
+[2015-12-21 13:40:11,128] [5  ] [INFO ] -   LoginUser: 
+[2015-12-21 13:40:11,128] [5  ] [INFO ] -   LoginPassword: 
+[2015-12-21 13:40:11,128] [5  ] [INFO ] -   key1: value1
+[2015-12-21 13:40:11,128] [5  ] [INFO ] -   key2: value2
+[2015-12-21 13:40:11,129] [5  ] [INFO ] - Starting memory usage for site [http://www.bg-mamma.com/index.php?board=376] is [18mb]
+[2015-12-21 13:40:11,617] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:12,562] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=showNews;id=5800] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:14,514] [7  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&action=reminder] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:15,659] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&action=register] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:16,531] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&action=activate] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:17,573] [7  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&action=explore] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:18,674] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:19,796] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=370] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:20,730] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/?action=landing;client=grijazakosata] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:21,669] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/?action=landing;client=NiveaBaby] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:22,901] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=368] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:23,873] [7  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:24,724] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&topic=891550] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:25,747] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?topic=23714.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:26,966] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=21.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:27,930] [7  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:28,930] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&board=140] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:29,957] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&board=141] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:30,941] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&board=142] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:32,071] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&board=99] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:33,010] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&board=376.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:34,145] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&board=376.30] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:35,033] [7  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&board=376.60] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:36,055] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&board=376.90] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:37,102] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&board=376.120] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:38,055] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&board=376.150] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:39,079] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&board=376.1200] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:40,131] [7  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=post;board=140] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:41,167] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=post;board=141] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:42,161] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=post;board=142] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:43,214] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=post;board=99] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:44,772] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&board=376;sort=subject] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:45,218] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&board=376;sort=last_post] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:46,071] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&topic=884670.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:46,971] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=profile;u=369206] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:48,061] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&topicrefid=19;topic=884670.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:49,169] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&topic=91330.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:50,111] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=profile;u=6205] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:51,238] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&topic=91330.15] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:52,183] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&topic=91330.465] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:53,479] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&topic=91330.480] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:54,097] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=profile;u=35794] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:55,189] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&topicrefid=19;topic=91330.msg32180246] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:56,288] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&topic=886735.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:57,122] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=profile;u=158877] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:58,404] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&topic=886735.15] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:40:59,323] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&topic=886735.540] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:41:00,252] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&topic=886735.555] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:41:01,240] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=profile;u=22846] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:41:02,281] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&topicrefid=19;topic=886735.msg32225412] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:41:03,738] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&topic=880015.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:41:04,320] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=profile;u=385636] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:41:05,607] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&topic=880015.15] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:41:06,788] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&topic=880015.1305] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:41:07,458] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&topic=880015.1320] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:41:08,509] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=profile;u=455371] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:41:09,533] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&topicrefid=19;topic=880015.msg32225403] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:41:10,497] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=n6fjvd8vqrg2movvecgvi5cvm0&topic=629783.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:41:11,453] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=profile;u=350895] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:42:23,920] [7  ] [INFO ] - About to crawl site [http://www.bg-mamma.com/index.php?board=376]
+[2015-12-21 13:42:23,944] [7  ] [INFO ] - Configuration Values:
+[2015-12-21 13:42:23,945] [7  ] [INFO ] -   Abot Version: 1.5.0.138
+[2015-12-21 13:42:23,945] [7  ] [INFO ] -   MaxConcurrentThreads: 3
+[2015-12-21 13:42:23,945] [7  ] [INFO ] -   MaxPagesToCrawl: 100000
+[2015-12-21 13:42:23,945] [7  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-21 13:42:23,945] [7  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-21 13:42:23,945] [7  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-21 13:42:23,946] [7  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-21 13:42:23,946] [7  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-21 13:42:23,946] [7  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-21 13:42:23,946] [7  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-21 13:42:23,946] [7  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-21 13:42:23,946] [7  ] [INFO ] -   IsRespectUrlNamedAnchorOrHashbangEnabled: False
+[2015-12-21 13:42:23,946] [7  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-21 13:42:23,946] [7  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-21 13:42:23,946] [7  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-21 13:42:23,946] [7  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-21 13:42:23,946] [7  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-21 13:42:23,947] [7  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-21 13:42:23,947] [7  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-21 13:42:23,947] [7  ] [INFO ] -   IsSslCertificateValidationEnabled: False
+[2015-12-21 13:42:23,947] [7  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-21 13:42:23,947] [7  ] [INFO ] -   MaxMemoryUsageInMb: 700
+[2015-12-21 13:42:23,947] [7  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-21 13:42:23,947] [7  ] [INFO ] -   MaxCrawlDepth: 100000
+[2015-12-21 13:42:23,947] [7  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-21 13:42:23,947] [7  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-21 13:42:23,947] [7  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-21 13:42:23,947] [7  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-21 13:42:23,947] [7  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-21 13:42:23,948] [7  ] [INFO ] -   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: False
+[2015-12-21 13:42:23,948] [7  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-21 13:42:23,948] [7  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-21 13:42:23,948] [7  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-21 13:42:23,948] [7  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-12-21 13:42:23,948] [7  ] [INFO ] -   IsAlwaysLogin: False
+[2015-12-21 13:42:23,948] [7  ] [INFO ] -   LoginUser: 
+[2015-12-21 13:42:23,948] [7  ] [INFO ] -   LoginPassword: 
+[2015-12-21 13:42:23,948] [7  ] [INFO ] -   key1: value1
+[2015-12-21 13:42:23,948] [7  ] [INFO ] -   key2: value2
+[2015-12-21 13:42:23,949] [7  ] [INFO ] - Starting memory usage for site [http://www.bg-mamma.com/index.php?board=376] is [17mb]
+[2015-12-21 13:42:24,803] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:42:27,517] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=showNews;id=5800] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:42:31,037] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=pnsu4sdl54gq85lelrgtqvbte4&action=activate] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:42:36,542] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=pnsu4sdl54gq85lelrgtqvbte4&action=reminder] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:42:37,657] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=pnsu4sdl54gq85lelrgtqvbte4&action=explore] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:42:38,778] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=pnsu4sdl54gq85lelrgtqvbte4&] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:42:39,773] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/?action=landing;client=grijazakosata] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:42:40,258] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=pnsu4sdl54gq85lelrgtqvbte4&action=register] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:42:40,697] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/?action=landing;client=NiveaBaby] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:42:41,992] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=368] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:42:42,981] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=370] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:42:43,944] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=pnsu4sdl54gq85lelrgtqvbte4&board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:42:44,859] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=pnsu4sdl54gq85lelrgtqvbte4&topic=891550] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:45:35,268] [6  ] [INFO ] - About to crawl site [http://www.bg-mamma.com/index.php?board=376]
+[2015-12-21 13:45:35,291] [6  ] [INFO ] - Configuration Values:
+[2015-12-21 13:45:35,292] [6  ] [INFO ] -   Abot Version: 1.5.0.138
+[2015-12-21 13:45:35,292] [6  ] [INFO ] -   MaxConcurrentThreads: 3
+[2015-12-21 13:45:35,292] [6  ] [INFO ] -   MaxPagesToCrawl: 100000
+[2015-12-21 13:45:35,292] [6  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-21 13:45:35,293] [6  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-21 13:45:35,293] [6  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-21 13:45:35,293] [6  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-21 13:45:35,293] [6  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-21 13:45:35,293] [6  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-21 13:45:35,293] [6  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-21 13:45:35,293] [6  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-21 13:45:35,293] [6  ] [INFO ] -   IsRespectUrlNamedAnchorOrHashbangEnabled: False
+[2015-12-21 13:45:35,294] [6  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-21 13:45:35,294] [6  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-21 13:45:35,294] [6  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-21 13:45:35,294] [6  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-21 13:45:35,294] [6  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-21 13:45:35,294] [6  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-21 13:45:35,294] [6  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-21 13:45:35,294] [6  ] [INFO ] -   IsSslCertificateValidationEnabled: False
+[2015-12-21 13:45:35,294] [6  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-21 13:45:35,294] [6  ] [INFO ] -   MaxMemoryUsageInMb: 700
+[2015-12-21 13:45:35,295] [6  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-21 13:45:35,295] [6  ] [INFO ] -   MaxCrawlDepth: 100000
+[2015-12-21 13:45:35,295] [6  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-21 13:45:35,295] [6  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-21 13:45:35,295] [6  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-21 13:45:35,295] [6  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-21 13:45:35,295] [6  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-21 13:45:35,295] [6  ] [INFO ] -   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: False
+[2015-12-21 13:45:35,295] [6  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-21 13:45:35,295] [6  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-21 13:45:35,296] [6  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-21 13:45:35,296] [6  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-12-21 13:45:35,296] [6  ] [INFO ] -   IsAlwaysLogin: False
+[2015-12-21 13:45:35,296] [6  ] [INFO ] -   LoginUser: 
+[2015-12-21 13:45:35,296] [6  ] [INFO ] -   LoginPassword: 
+[2015-12-21 13:45:35,296] [6  ] [INFO ] -   key1: value1
+[2015-12-21 13:45:35,296] [6  ] [INFO ] -   key2: value2
+[2015-12-21 13:45:35,298] [6  ] [INFO ] - Starting memory usage for site [http://www.bg-mamma.com/index.php?board=376] is [26mb]
+[2015-12-21 13:45:36,072] [7  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:45:36,953] [7  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=showNews;id=5800] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:45:38,969] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=8nsuj7nanub75u93mav2drf7e4&action=reminder] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:45:40,052] [7  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=8nsuj7nanub75u93mav2drf7e4&action=register] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:45:40,967] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=8nsuj7nanub75u93mav2drf7e4&action=activate] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:45:42,048] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=8nsuj7nanub75u93mav2drf7e4&action=explore] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:45:43,110] [7  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=8nsuj7nanub75u93mav2drf7e4&] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:45:44,295] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=368] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:45:45,065] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/?action=landing;client=grijazakosata] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:45:46,065] [7  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/?action=landing;client=NiveaBaby] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:45:47,339] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=370] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:45:48,323] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=8nsuj7nanub75u93mav2drf7e4&board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:45:49,304] [7  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=8nsuj7nanub75u93mav2drf7e4&topic=891794] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 13:52:04,554] [6  ] [INFO ] - About to crawl site [http://www.bg-mamma.com/index.php?action=cat_groups;catId=37]
+[2015-12-21 13:52:04,576] [6  ] [INFO ] - Configuration Values:
+[2015-12-21 13:52:04,577] [6  ] [INFO ] -   Abot Version: 1.5.0.138
+[2015-12-21 13:52:04,577] [6  ] [INFO ] -   MaxConcurrentThreads: 3
+[2015-12-21 13:52:04,577] [6  ] [INFO ] -   MaxPagesToCrawl: 100000
+[2015-12-21 13:52:04,577] [6  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-21 13:52:04,578] [6  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-21 13:52:04,578] [6  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-21 13:52:04,578] [6  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-21 13:52:04,578] [6  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-21 13:52:04,578] [6  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-21 13:52:04,578] [6  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-21 13:52:04,578] [6  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-21 13:52:04,578] [6  ] [INFO ] -   IsRespectUrlNamedAnchorOrHashbangEnabled: False
+[2015-12-21 13:52:04,578] [6  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-21 13:52:04,578] [6  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-21 13:52:04,578] [6  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-21 13:52:04,579] [6  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-21 13:52:04,579] [6  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-21 13:52:04,579] [6  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-21 13:52:04,579] [6  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-21 13:52:04,579] [6  ] [INFO ] -   IsSslCertificateValidationEnabled: False
+[2015-12-21 13:52:04,579] [6  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-21 13:52:04,579] [6  ] [INFO ] -   MaxMemoryUsageInMb: 700
+[2015-12-21 13:52:04,579] [6  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-21 13:52:04,579] [6  ] [INFO ] -   MaxCrawlDepth: 100000
+[2015-12-21 13:52:04,579] [6  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-21 13:52:04,580] [6  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-21 13:52:04,580] [6  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-21 13:52:04,580] [6  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-21 13:52:04,580] [6  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-21 13:52:04,580] [6  ] [INFO ] -   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: False
+[2015-12-21 13:52:04,580] [6  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-21 13:52:04,580] [6  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-21 13:52:04,580] [6  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-21 13:52:04,580] [6  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-12-21 13:52:04,580] [6  ] [INFO ] -   IsAlwaysLogin: False
+[2015-12-21 13:52:04,582] [6  ] [INFO ] -   LoginUser: 
+[2015-12-21 13:52:04,582] [6  ] [INFO ] -   LoginPassword: 
+[2015-12-21 13:52:04,582] [6  ] [INFO ] -   key1: value1
+[2015-12-21 13:52:04,583] [6  ] [INFO ] -   key2: value2
+[2015-12-21 13:52:04,583] [6  ] [INFO ] - Starting memory usage for site [http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] is [19mb]
+[2015-12-21 13:52:11,698] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:14,068] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=reminder] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:15,192] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=showNews;id=5800] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:16,332] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=register] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:17,192] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=activate] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:18,241] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:19,551] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:20,682] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=370] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:21,563] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=368] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:22,336] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/?action=landing;client=NiveaBaby] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:23,338] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/?action=landing;client=grijazakosata] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:24,385] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=index] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:25,476] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=home] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:26,384] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=explore] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:27,648] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=445] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:28,651] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=373] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:29,672] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=438] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:30,717] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=439] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:31,776] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=382] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:32,790] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=407] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:33,966] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=384] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:34,955] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=381] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:35,836] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=403] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:36,905] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=406] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:37,622] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/?action=landing;client=koleda2015&utm_source=Sidebar&utm_medium=Sidebar&utm_campaign=Koleda%202015] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:38,607] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/?action=koleda2015&utm_source=Sidebar&utm_medium=Sidebar&utm_campaign=banica] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:52:39,749] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=topic_listing;sa=recent] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:54:08,873] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=topic_listing;sa=recommended_topics] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:54:16,678] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=376] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:54:17,536] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=437] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:54:18,598] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=434] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:54:19,633] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=500] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:54:20,617] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=435] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:54:21,647] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=436] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:54:22,397] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=profile] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:54:23,374] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=profile;sa=notification] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:54:24,388] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=profile;u=0;sa=editBuddies] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:54:25,672] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=logout;sesc=f2b0a5d3907914fc47eb5bb8c7cb9092] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 13:54:26,417] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=jf690hgc08kpevapifi4jcv8h0&action=reminder] Parent:[http://www.bg-mamma.com/index.php?action=showNews;id=5800] Retry:[0]
+[2015-12-21 13:54:27,517] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=jf690hgc08kpevapifi4jcv8h0&action=register] Parent:[http://www.bg-mamma.com/index.php?action=showNews;id=5800] Retry:[0]
+[2015-12-21 13:54:28,449] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=jf690hgc08kpevapifi4jcv8h0&action=activate] Parent:[http://www.bg-mamma.com/index.php?action=showNews;id=5800] Retry:[0]
+[2015-12-21 13:54:29,489] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=jf690hgc08kpevapifi4jcv8h0&action=explore] Parent:[http://www.bg-mamma.com/index.php?action=showNews;id=5800] Retry:[0]
+[2015-12-21 13:54:30,709] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=jf690hgc08kpevapifi4jcv8h0&] Parent:[http://www.bg-mamma.com/index.php?action=showNews;id=5800] Retry:[0]
+[2015-12-21 13:54:31,508] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=listNews;id=1] Parent:[http://www.bg-mamma.com/index.php?action=showNews;id=5800] Retry:[0]
+[2015-12-21 13:54:32,530] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=showNews;id=5737] Parent:[http://www.bg-mamma.com/index.php?action=showNews;id=5800] Retry:[0]
+[2015-12-21 13:54:33,544] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=showNews;id=5124] Parent:[http://www.bg-mamma.com/index.php?action=showNews;id=5800] Retry:[0]
+[2015-12-21 13:54:34,542] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=showNews;id=1175] Parent:[http://www.bg-mamma.com/index.php?action=showNews;id=5800] Retry:[0]
+[2015-12-21 13:54:35,555] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=showNews;id=5302] Parent:[http://www.bg-mamma.com/index.php?action=showNews;id=5800] Retry:[0]
+[2015-12-21 13:54:36,568] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=jf690hgc08kpevapifi4jcv8h0&action=profile] Parent:[http://www.bg-mamma.com/index.php?action=showNews;id=5800] Retry:[0]
+[2015-12-21 13:54:37,580] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=jf690hgc08kpevapifi4jcv8h0&action=profile;sa=notification] Parent:[http://www.bg-mamma.com/index.php?action=showNews;id=5800] Retry:[0]
+[2015-12-21 13:54:38,582] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=jf690hgc08kpevapifi4jcv8h0&action=profile;u=0;sa=editBuddies] Parent:[http://www.bg-mamma.com/index.php?action=showNews;id=5800] Retry:[0]
+[2015-12-21 13:54:39,757] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=jf690hgc08kpevapifi4jcv8h0&action=logout;sesc=3d3e897899a9e243d1852ea5022969f0] Parent:[http://www.bg-mamma.com/index.php?action=showNews;id=5800] Retry:[0]
+[2015-12-21 13:54:40,723] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?topic=23714.0] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=register] Retry:[0]
+[2015-12-21 13:54:49,501] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=468] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:06,592] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=463] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:06,897] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=443] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:07,705] [17 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=cat_groups;catId=2] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:09,049] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=450] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:09,772] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=cat_groups;catId=4] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:11,635] [17 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=444] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:12,715] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=372] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:13,622] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=446] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:14,665] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=447] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:15,664] [17 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=477] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:16,435] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=cat_groups;catId=31] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:17,688] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=377] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:18,691] [17 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=464] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:25,144] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=461] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:25,474] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=454] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:26,864] [17 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=453] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:27,467] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=433] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:28,572] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=378] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:29,560] [17 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=379] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:30,535] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=499] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:31,485] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=451] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:32,491] [17 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=431] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:52,371] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=432] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:53,167] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=cat_groups;catId=38] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:54,526] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=424] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:55,590] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=425] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:56,338] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=cat_groups;catId=35] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:55:58,572] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=428] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:56:01,522] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=423] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:56:04,043] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=380] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:56:04,519] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=420] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:56:04,858] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=426] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:56:05,077] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=427] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:56:05,667] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=421] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:56:06,426] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=418] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:56:07,458] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&board=417] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 13:56:08,254] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=cat_groups;catId=40] Parent:[http://www.bg-mamma.com/index.php?PHPSESSID=mun38karheni1p0nrm5me2okk0&action=explore] Retry:[0]
+[2015-12-21 14:15:17,055] [7  ] [INFO ] - About to crawl site [http://www.bg-mamma.com/index.php?action=cat_groups;catId=37]
+[2015-12-21 14:15:17,072] [7  ] [INFO ] - Configuration Values:
+[2015-12-21 14:15:17,072] [7  ] [INFO ] -   Abot Version: 1.5.0.138
+[2015-12-21 14:15:17,073] [7  ] [INFO ] -   MaxConcurrentThreads: 3
+[2015-12-21 14:15:17,073] [7  ] [INFO ] -   MaxPagesToCrawl: 100000
+[2015-12-21 14:15:17,073] [7  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-21 14:15:17,073] [7  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-21 14:15:17,073] [7  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-21 14:15:17,073] [7  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-21 14:15:17,074] [7  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-21 14:15:17,074] [7  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-21 14:15:17,074] [7  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-21 14:15:17,074] [7  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-21 14:15:17,074] [7  ] [INFO ] -   IsRespectUrlNamedAnchorOrHashbangEnabled: False
+[2015-12-21 14:15:17,074] [7  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-21 14:15:17,075] [7  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-21 14:15:17,075] [7  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-21 14:15:17,075] [7  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-21 14:15:17,075] [7  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-21 14:15:17,075] [7  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-21 14:15:17,075] [7  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-21 14:15:17,075] [7  ] [INFO ] -   IsSslCertificateValidationEnabled: False
+[2015-12-21 14:15:17,076] [7  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-21 14:15:17,077] [7  ] [INFO ] -   MaxMemoryUsageInMb: 700
+[2015-12-21 14:15:17,077] [7  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-21 14:15:17,077] [7  ] [INFO ] -   MaxCrawlDepth: 100000
+[2015-12-21 14:15:17,077] [7  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-21 14:15:17,077] [7  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-21 14:15:17,077] [7  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-21 14:15:17,077] [7  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-21 14:15:17,078] [7  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-21 14:15:17,078] [7  ] [INFO ] -   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: False
+[2015-12-21 14:15:17,078] [7  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-21 14:15:17,078] [7  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-21 14:15:17,079] [7  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-21 14:15:17,079] [7  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-12-21 14:15:17,080] [7  ] [INFO ] -   IsAlwaysLogin: False
+[2015-12-21 14:15:17,080] [7  ] [INFO ] -   LoginUser: 
+[2015-12-21 14:15:17,080] [7  ] [INFO ] -   LoginPassword: 
+[2015-12-21 14:15:17,080] [7  ] [INFO ] -   key1: value1
+[2015-12-21 14:15:17,080] [7  ] [INFO ] -   key2: value2
+[2015-12-21 14:15:17,081] [7  ] [INFO ] - Starting memory usage for site [http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] is [6mb]
+[2015-12-21 14:16:14,428] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 14:16:16,385] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=showNews;id=5800] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 14:17:49,115] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=k4k113imdtrl5id8qo5b3vp3k4&action=reminder] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 14:19:00,147] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=k4k113imdtrl5id8qo5b3vp3k4&action=register] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 14:19:05,272] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=k4k113imdtrl5id8qo5b3vp3k4&action=activate] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 14:19:06,745] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=k4k113imdtrl5id8qo5b3vp3k4&action=explore] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 14:19:07,952] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=k4k113imdtrl5id8qo5b3vp3k4&] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 14:19:35,643] [11 ] [INFO ] - Page crawl complete, Status:[NA] Url:[http://www.bg-mamma.com/index.php?board=370] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 14:19:35,646] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/?action=landing;client=grijazakosata] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 14:19:55,996] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=368] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 14:19:56,047] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/?action=landing;client=NiveaBaby] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 14:20:10,022] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=index] Parent:[http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] Retry:[0]
+[2015-12-21 14:21:49,731] [8  ] [INFO ] - About to crawl site [http://www.bg-mamma.com/index.php?action=cat_groups;catId=37]
+[2015-12-21 14:21:49,751] [8  ] [INFO ] - Configuration Values:
+[2015-12-21 14:21:49,752] [8  ] [INFO ] -   Abot Version: 1.5.0.138
+[2015-12-21 14:21:49,752] [8  ] [INFO ] -   MaxConcurrentThreads: 3
+[2015-12-21 14:21:49,752] [8  ] [INFO ] -   MaxPagesToCrawl: 100000
+[2015-12-21 14:21:49,752] [8  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-21 14:21:49,752] [8  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-21 14:21:49,753] [8  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-21 14:21:49,753] [8  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-21 14:21:49,753] [8  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-21 14:21:49,753] [8  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-21 14:21:49,753] [8  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-21 14:21:49,753] [8  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-21 14:21:49,753] [8  ] [INFO ] -   IsRespectUrlNamedAnchorOrHashbangEnabled: False
+[2015-12-21 14:21:49,753] [8  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-21 14:21:49,753] [8  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-21 14:21:49,753] [8  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-21 14:21:49,754] [8  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-21 14:21:49,754] [8  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-21 14:21:49,754] [8  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-21 14:21:49,754] [8  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-21 14:21:49,754] [8  ] [INFO ] -   IsSslCertificateValidationEnabled: False
+[2015-12-21 14:21:49,754] [8  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-21 14:21:49,754] [8  ] [INFO ] -   MaxMemoryUsageInMb: 700
+[2015-12-21 14:21:49,754] [8  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-21 14:21:49,754] [8  ] [INFO ] -   MaxCrawlDepth: 100000
+[2015-12-21 14:21:49,754] [8  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-21 14:21:49,754] [8  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-21 14:21:49,755] [8  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-21 14:21:49,755] [8  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-21 14:21:49,755] [8  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-21 14:21:49,755] [8  ] [INFO ] -   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: False
+[2015-12-21 14:21:49,755] [8  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-21 14:21:49,755] [8  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-21 14:21:49,755] [8  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-21 14:21:49,755] [8  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-12-21 14:21:49,755] [8  ] [INFO ] -   IsAlwaysLogin: False
+[2015-12-21 14:21:49,755] [8  ] [INFO ] -   LoginUser: 
+[2015-12-21 14:21:49,756] [8  ] [INFO ] -   LoginPassword: 
+[2015-12-21 14:21:49,756] [8  ] [INFO ] -   key1: value1
+[2015-12-21 14:21:49,756] [8  ] [INFO ] -   key2: value2
+[2015-12-21 14:21:49,756] [8  ] [INFO ] - Starting memory usage for site [http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] is [8mb]
+[2015-12-21 14:21:49,772] [8  ] [INFO ] - Ending memory usage for site [http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] is [8mb]
+[2015-12-21 14:21:49,772] [8  ] [INFO ] - Crawl complete for site [http://www.bg-mamma.com/index.php?action=cat_groups;catId=37]: Crawled [0] pages in [00:00:00.0149178]
+[2015-12-21 14:22:06,451] [8  ] [INFO ] - About to crawl site [http://www.bg-mamma.com/index.php?action=cat_groups;catId=37]
+[2015-12-21 14:22:06,452] [8  ] [INFO ] - Configuration Values:
+[2015-12-21 14:22:06,452] [8  ] [INFO ] -   Abot Version: 1.5.0.138
+[2015-12-21 14:22:06,452] [8  ] [INFO ] -   MaxConcurrentThreads: 3
+[2015-12-21 14:22:06,452] [8  ] [INFO ] -   MaxPagesToCrawl: 100000
+[2015-12-21 14:22:06,486] [8  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-21 14:22:06,489] [8  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-21 14:22:06,490] [8  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-21 14:22:06,490] [8  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-21 14:22:06,490] [8  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-21 14:22:06,490] [8  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-21 14:22:06,490] [8  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-21 14:22:06,490] [8  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-21 14:22:06,491] [8  ] [INFO ] -   IsRespectUrlNamedAnchorOrHashbangEnabled: False
+[2015-12-21 14:22:06,491] [8  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-21 14:22:06,491] [8  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-21 14:22:06,491] [8  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-21 14:22:06,491] [8  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-21 14:22:06,491] [8  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-21 14:22:06,491] [8  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-21 14:22:06,492] [8  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-21 14:22:06,492] [8  ] [INFO ] -   IsSslCertificateValidationEnabled: False
+[2015-12-21 14:22:06,492] [8  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-21 14:22:06,492] [8  ] [INFO ] -   MaxMemoryUsageInMb: 700
+[2015-12-21 14:22:06,492] [8  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-21 14:22:06,492] [8  ] [INFO ] -   MaxCrawlDepth: 100000
+[2015-12-21 14:22:06,492] [8  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-21 14:22:06,492] [8  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-21 14:22:06,493] [8  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-21 14:22:06,493] [8  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-21 14:22:06,493] [8  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-21 14:22:06,493] [8  ] [INFO ] -   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: False
+[2015-12-21 14:22:06,493] [8  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-21 14:22:06,493] [8  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-21 14:22:06,493] [8  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-21 14:22:06,494] [8  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-12-21 14:22:06,494] [8  ] [INFO ] -   IsAlwaysLogin: False
+[2015-12-21 14:22:06,494] [8  ] [INFO ] -   LoginUser: 
+[2015-12-21 14:22:06,494] [8  ] [INFO ] -   LoginPassword: 
+[2015-12-21 14:22:06,494] [8  ] [INFO ] -   key1: value1
+[2015-12-21 14:22:06,494] [8  ] [INFO ] -   key2: value2
+[2015-12-21 14:22:06,495] [8  ] [INFO ] - Starting memory usage for site [http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] is [9mb]
+[2015-12-21 14:22:06,495] [8  ] [INFO ] - Ending memory usage for site [http://www.bg-mamma.com/index.php?action=cat_groups;catId=37] is [9mb]
+[2015-12-21 14:22:06,496] [8  ] [INFO ] - Crawl complete for site [http://www.bg-mamma.com/index.php?action=cat_groups;catId=37]: Crawled [0] pages in [00:00:00.0002001]
+[2015-12-21 14:23:28,754] [7  ] [INFO ] - About to crawl site [http://www.bg-mamma.com/index.php?board=376]
+[2015-12-21 14:23:28,787] [7  ] [INFO ] - Configuration Values:
+[2015-12-21 14:23:28,787] [7  ] [INFO ] -   Abot Version: 1.5.0.138
+[2015-12-21 14:23:28,788] [7  ] [INFO ] -   MaxConcurrentThreads: 3
+[2015-12-21 14:23:28,788] [7  ] [INFO ] -   MaxPagesToCrawl: 100000
+[2015-12-21 14:23:28,788] [7  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-21 14:23:28,788] [7  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-21 14:23:28,788] [7  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-21 14:23:28,788] [7  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-21 14:23:28,789] [7  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-21 14:23:28,789] [7  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-21 14:23:28,789] [7  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-21 14:23:28,789] [7  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-21 14:23:28,789] [7  ] [INFO ] -   IsRespectUrlNamedAnchorOrHashbangEnabled: False
+[2015-12-21 14:23:28,789] [7  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-21 14:23:28,789] [7  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-21 14:23:28,789] [7  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-21 14:23:28,789] [7  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-21 14:23:28,789] [7  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-21 14:23:28,789] [7  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-21 14:23:28,789] [7  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-21 14:23:28,790] [7  ] [INFO ] -   IsSslCertificateValidationEnabled: False
+[2015-12-21 14:23:28,790] [7  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-21 14:23:28,790] [7  ] [INFO ] -   MaxMemoryUsageInMb: 700
+[2015-12-21 14:23:28,790] [7  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-21 14:23:28,790] [7  ] [INFO ] -   MaxCrawlDepth: 100000
+[2015-12-21 14:23:28,790] [7  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-21 14:23:28,790] [7  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-21 14:23:28,790] [7  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-21 14:23:28,790] [7  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-21 14:23:28,790] [7  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-21 14:23:28,790] [7  ] [INFO ] -   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: False
+[2015-12-21 14:23:28,791] [7  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-21 14:23:28,791] [7  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-21 14:23:28,791] [7  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-21 14:23:28,791] [7  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-12-21 14:23:28,791] [7  ] [INFO ] -   IsAlwaysLogin: False
+[2015-12-21 14:23:28,791] [7  ] [INFO ] -   LoginUser: 
+[2015-12-21 14:23:28,791] [7  ] [INFO ] -   LoginPassword: 
+[2015-12-21 14:23:28,791] [7  ] [INFO ] -   key1: value1
+[2015-12-21 14:23:28,791] [7  ] [INFO ] -   key2: value2
+[2015-12-21 14:23:28,792] [7  ] [INFO ] - Starting memory usage for site [http://www.bg-mamma.com/index.php?board=376] is [7mb]
+[2015-12-21 14:23:33,268] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:24:17,985] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=370] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:24:18,038] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=368] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:24:23,488] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=68c5c9uia0thqprdmd37tidjf3&board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:24:27,506] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=68c5c9uia0thqprdmd37tidjf3&topic=856707] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:24:49,598] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?topic=23714.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:25:22,228] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=21.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:25:30,192] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=68c5c9uia0thqprdmd37tidjf3&board=140] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:25:30,968] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=68c5c9uia0thqprdmd37tidjf3&board=141] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:25:32,930] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=68c5c9uia0thqprdmd37tidjf3&board=99] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:26:01,435] [8  ] [INFO ] - Page crawl complete, Status:[NA] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=68c5c9uia0thqprdmd37tidjf3&board=142] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:26:13,019] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=68c5c9uia0thqprdmd37tidjf3&board=376.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:26:33,318] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=68c5c9uia0thqprdmd37tidjf3&board=376.30] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:26:35,393] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=68c5c9uia0thqprdmd37tidjf3&board=376.60] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:26:40,336] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=68c5c9uia0thqprdmd37tidjf3&board=376.90] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:26:41,684] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=68c5c9uia0thqprdmd37tidjf3&board=376.120] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:26:43,600] [18 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=68c5c9uia0thqprdmd37tidjf3&board=376.150] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:26:44,613] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=68c5c9uia0thqprdmd37tidjf3&board=376.1200] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:26:45,649] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=post;board=140] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:26:46,829] [17 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=post;board=141] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:26:47,712] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=post;board=142] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:26:48,746] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=post;board=99] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:26:50,341] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=68c5c9uia0thqprdmd37tidjf3&board=376;sort=subject] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:26:50,704] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=68c5c9uia0thqprdmd37tidjf3&board=376;sort=last_post] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:26:51,598] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=68c5c9uia0thqprdmd37tidjf3&topic=884670.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:27:21,263] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=68c5c9uia0thqprdmd37tidjf3&topicrefid=19;topic=884670.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:51:15,144] [6  ] [INFO ] - About to crawl site [http://www.bg-mamma.com/index.php?board=376]
+[2015-12-21 14:51:15,162] [6  ] [INFO ] - Configuration Values:
+[2015-12-21 14:51:15,163] [6  ] [INFO ] -   Abot Version: 1.5.0.138
+[2015-12-21 14:51:15,163] [6  ] [INFO ] -   MaxConcurrentThreads: 3
+[2015-12-21 14:51:15,163] [6  ] [INFO ] -   MaxPagesToCrawl: 100000
+[2015-12-21 14:51:15,163] [6  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-21 14:51:15,163] [6  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-21 14:51:15,163] [6  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-21 14:51:15,163] [6  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-21 14:51:15,164] [6  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-21 14:51:15,164] [6  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-21 14:51:15,164] [6  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-21 14:51:15,164] [6  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-21 14:51:15,164] [6  ] [INFO ] -   IsRespectUrlNamedAnchorOrHashbangEnabled: False
+[2015-12-21 14:51:15,164] [6  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-21 14:51:15,164] [6  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-21 14:51:15,164] [6  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-21 14:51:15,164] [6  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-21 14:51:15,164] [6  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-21 14:51:15,164] [6  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-21 14:51:15,164] [6  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-21 14:51:15,164] [6  ] [INFO ] -   IsSslCertificateValidationEnabled: False
+[2015-12-21 14:51:15,165] [6  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-21 14:51:15,165] [6  ] [INFO ] -   MaxMemoryUsageInMb: 700
+[2015-12-21 14:51:15,165] [6  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-21 14:51:15,165] [6  ] [INFO ] -   MaxCrawlDepth: 100000
+[2015-12-21 14:51:15,165] [6  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-21 14:51:15,166] [6  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-21 14:51:15,166] [6  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-21 14:51:15,166] [6  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-21 14:51:15,166] [6  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-21 14:51:15,166] [6  ] [INFO ] -   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: False
+[2015-12-21 14:51:15,166] [6  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-21 14:51:15,166] [6  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-21 14:51:15,166] [6  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-21 14:51:15,166] [6  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-12-21 14:51:15,166] [6  ] [INFO ] -   IsAlwaysLogin: False
+[2015-12-21 14:51:15,167] [6  ] [INFO ] -   LoginUser: 
+[2015-12-21 14:51:15,167] [6  ] [INFO ] -   LoginPassword: 
+[2015-12-21 14:51:15,167] [6  ] [INFO ] -   key1: value1
+[2015-12-21 14:51:15,168] [6  ] [INFO ] -   key2: value2
+[2015-12-21 14:51:15,168] [6  ] [INFO ] - Starting memory usage for site [http://www.bg-mamma.com/index.php?board=376] is [14mb]
+[2015-12-21 14:51:15,702] [7  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:51:35,237] [6  ] [INFO ] - Ending memory usage for site [http://www.bg-mamma.com/index.php?board=376] is [24mb]
+[2015-12-21 14:51:35,238] [6  ] [INFO ] - Crawl complete for site [http://www.bg-mamma.com/index.php?board=376]: Crawled [1] pages in [00:00:20.0662218]
+[2015-12-21 14:53:44,866] [8  ] [INFO ] - About to crawl site [http://www.bg-mamma.com/index.php?board=376]
+[2015-12-21 14:53:44,887] [8  ] [INFO ] - Configuration Values:
+[2015-12-21 14:53:44,887] [8  ] [INFO ] -   Abot Version: 1.5.0.138
+[2015-12-21 14:53:44,888] [8  ] [INFO ] -   MaxConcurrentThreads: 3
+[2015-12-21 14:53:44,888] [8  ] [INFO ] -   MaxPagesToCrawl: 100000
+[2015-12-21 14:53:44,888] [8  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-21 14:53:44,888] [8  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-21 14:53:44,888] [8  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-21 14:53:44,888] [8  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-21 14:53:44,889] [8  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-21 14:53:44,889] [8  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-21 14:53:44,889] [8  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-21 14:53:44,889] [8  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-21 14:53:44,889] [8  ] [INFO ] -   IsRespectUrlNamedAnchorOrHashbangEnabled: False
+[2015-12-21 14:53:44,889] [8  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-21 14:53:44,889] [8  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-21 14:53:44,889] [8  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-21 14:53:44,889] [8  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-21 14:53:44,890] [8  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-21 14:53:44,890] [8  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-21 14:53:44,890] [8  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-21 14:53:44,890] [8  ] [INFO ] -   IsSslCertificateValidationEnabled: False
+[2015-12-21 14:53:44,890] [8  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-21 14:53:44,890] [8  ] [INFO ] -   MaxMemoryUsageInMb: 700
+[2015-12-21 14:53:44,890] [8  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-21 14:53:44,890] [8  ] [INFO ] -   MaxCrawlDepth: 100000
+[2015-12-21 14:53:44,890] [8  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-21 14:53:44,891] [8  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-21 14:53:44,891] [8  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-21 14:53:44,891] [8  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-21 14:53:44,891] [8  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-21 14:53:44,891] [8  ] [INFO ] -   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: False
+[2015-12-21 14:53:44,891] [8  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-21 14:53:44,891] [8  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-21 14:53:44,891] [8  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-21 14:53:44,891] [8  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-12-21 14:53:44,891] [8  ] [INFO ] -   IsAlwaysLogin: False
+[2015-12-21 14:53:44,892] [8  ] [INFO ] -   LoginUser: 
+[2015-12-21 14:53:44,895] [8  ] [INFO ] -   LoginPassword: 
+[2015-12-21 14:53:44,895] [8  ] [INFO ] -   key1: value1
+[2015-12-21 14:53:44,895] [8  ] [INFO ] -   key2: value2
+[2015-12-21 14:53:44,895] [8  ] [INFO ] - Starting memory usage for site [http://www.bg-mamma.com/index.php?board=376] is [31mb]
+[2015-12-21 14:53:45,335] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:53:46,866] [7  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=368] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:53:46,898] [7  ] [FATAL] - Error occurred during processing of page [http://www.bg-mamma.com/index.php?board=368]
+[2015-12-21 14:53:46,899] [7  ] [FATAL] - System.ArgumentNullException: Value cannot be null.
+Parameter name: disallowedReason
+   at Abot.Crawler.PageLinksCrawlDisallowedArgs..ctor(CrawlContext crawlContext, CrawledPage crawledPage, String disallowedReason)
+   at Abot.Crawler.WebCrawler.FirePageLinksCrawlDisallowedEventAsync(CrawledPage crawledPage, String reason)
+   at Abot.Crawler.WebCrawler.ShouldCrawlPageLinks(CrawledPage crawledPage)
+   at Abot.Crawler.WebCrawler.ProcessPage(PageToCrawl pageToCrawl)
+[2015-12-21 14:53:46,900] [8  ] [INFO ] - Hard crawl stop requested for site [http://www.bg-mamma.com/index.php?board=376]!
+[2015-12-21 14:53:46,901] [8  ] [INFO ] - Ending memory usage for site [http://www.bg-mamma.com/index.php?board=376] is [31mb]
+[2015-12-21 14:53:46,902] [8  ] [INFO ] - Crawl complete for site [http://www.bg-mamma.com/index.php?board=376]: Crawled [4] pages in [00:00:02.0055774]
+[2015-12-21 14:53:47,806] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=370] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:53:48,840] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=feqbpbueab2augv5ju2istn2q2&board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:55:02,142] [6  ] [INFO ] - About to crawl site [http://www.bg-mamma.com/index.php?board=376]
+[2015-12-21 14:55:02,160] [6  ] [INFO ] - Configuration Values:
+[2015-12-21 14:55:02,160] [6  ] [INFO ] -   Abot Version: 1.5.0.138
+[2015-12-21 14:55:02,161] [6  ] [INFO ] -   MaxConcurrentThreads: 3
+[2015-12-21 14:55:02,161] [6  ] [INFO ] -   MaxPagesToCrawl: 100000
+[2015-12-21 14:55:02,161] [6  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-21 14:55:02,161] [6  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-21 14:55:02,161] [6  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-21 14:55:02,161] [6  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-21 14:55:02,161] [6  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-21 14:55:02,161] [6  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-21 14:55:02,161] [6  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-21 14:55:02,162] [6  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-21 14:55:02,162] [6  ] [INFO ] -   IsRespectUrlNamedAnchorOrHashbangEnabled: False
+[2015-12-21 14:55:02,162] [6  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-21 14:55:02,162] [6  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-21 14:55:02,162] [6  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-21 14:55:02,162] [6  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-21 14:55:02,162] [6  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-21 14:55:02,162] [6  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-21 14:55:02,162] [6  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-21 14:55:02,163] [6  ] [INFO ] -   IsSslCertificateValidationEnabled: False
+[2015-12-21 14:55:02,163] [6  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-21 14:55:02,163] [6  ] [INFO ] -   MaxMemoryUsageInMb: 700
+[2015-12-21 14:55:02,163] [6  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-21 14:55:02,163] [6  ] [INFO ] -   MaxCrawlDepth: 100000
+[2015-12-21 14:55:02,163] [6  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-21 14:55:02,163] [6  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-21 14:55:02,163] [6  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-21 14:55:02,164] [6  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-21 14:55:02,164] [6  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-21 14:55:02,164] [6  ] [INFO ] -   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: False
+[2015-12-21 14:55:02,164] [6  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-21 14:55:02,164] [6  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-21 14:55:02,164] [6  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-21 14:55:02,164] [6  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-12-21 14:55:02,164] [6  ] [INFO ] -   IsAlwaysLogin: False
+[2015-12-21 14:55:02,164] [6  ] [INFO ] -   LoginUser: 
+[2015-12-21 14:55:02,164] [6  ] [INFO ] -   LoginPassword: 
+[2015-12-21 14:55:02,164] [6  ] [INFO ] -   key1: value1
+[2015-12-21 14:55:02,165] [6  ] [INFO ] -   key2: value2
+[2015-12-21 14:55:02,165] [6  ] [INFO ] - Starting memory usage for site [http://www.bg-mamma.com/index.php?board=376] is [18mb]
+[2015-12-21 14:55:15,446] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:55:40,663] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=370] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:55:52,930] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=368] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:56:44,132] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:56:59,217] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&topic=891550] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:57:03,198] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?topic=23714.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:57:05,245] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=21.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:57:12,084] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&board=140] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:57:13,816] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&board=141] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:57:24,681] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&board=142] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:57:25,052] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&board=99] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:57:37,568] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&board=376.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:57:44,282] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&board=376.30] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:57:44,507] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&board=376.60] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:57:45,582] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&board=376.90] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:57:46,613] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&board=376.120] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:57:47,600] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&board=376.150] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:57:48,609] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&board=376.1200] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:57:49,635] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=post;board=140] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:57:56,747] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=post;board=141] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:57:57,765] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=post;board=142] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:57:58,739] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=post;board=99] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:58:00,344] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&board=376;sort=subject] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:58:00,760] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&board=376;sort=last_post] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 14:58:01,614] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&topic=884670.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:00:00,629] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=cri5riu8k4s8mgahalcnq3lme1&board=450] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:00:01,445] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=cri5riu8k4s8mgahalcnq3lme1&action=notify;sa=on;topic=23714.0;sesc=a46e77d3c976e4a5511c175179efeb1b] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:00:02,379] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&topicrefid=19;topic=884670.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:00:07,074] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=cri5riu8k4s8mgahalcnq3lme1&action=post;topic=23714.0;num_replies=6] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:00:08,146] [17 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&topic=91330.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:00:14,203] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=cri5riu8k4s8mgahalcnq3lme1&action=sendtopic;topic=23714.0] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:00:15,445] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&topic=91330.15] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:00:16,139] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=cri5riu8k4s8mgahalcnq3lme1&board=450.0] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:00:52,850] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=cri5riu8k4s8mgahalcnq3lme1&topic=23714.0] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:00:53,054] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&topic=91330.465] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:00:53,100] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&topic=91330.480] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:00:54,065] [18 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=notify;sa=on;topic=23714.0;sesc=a46e77d3c976e4a5511c175179efeb1b] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:00:55,058] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=post;topic=23714.0;num_replies=6] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:00:56,154] [17 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&topicrefid=19;topic=91330.msg32180246] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:00:57,488] [18 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&topic=880015.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:00:58,126] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=cri5riu8k4s8mgahalcnq3lme1&topic=23714.msg459453] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:00:59,274] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?topic=4823.0] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:01:00,364] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&topic=880015.15] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:01:01,092] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=post;quote=459453;topic=23714.0;num_replies=6;sesc=a46e77d3c976e4a5511c175179efeb1b] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:01:02,276] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&topic=880015.1320] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:01:32,347] [19 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=cri5riu8k4s8mgahalcnq3lme1&topic=23714.msg477595] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:01:33,476] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&topic=880015.1335] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:01:34,411] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=post;quote=477595;topic=23714.0;num_replies=6;sesc=a46e77d3c976e4a5511c175179efeb1b] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:01:36,192] [19 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=cri5riu8k4s8mgahalcnq3lme1&topic=23714.msg3135609] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:01:36,512] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&topicrefid=19;topic=880015.msg32225925] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:01:37,502] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=post;quote=3135609;topic=23714.0;num_replies=6;sesc=a46e77d3c976e4a5511c175179efeb1b] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:01:38,550] [19 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&topic=886735.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:01:40,441] [18 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=post;quote=4193605;topic=23714.0;num_replies=6;sesc=a46e77d3c976e4a5511c175179efeb1b] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:01:40,633] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=cri5riu8k4s8mgahalcnq3lme1&topic=23714.msg4193605] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:01:55,015] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&topic=886735.15] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:01:55,820] [17 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=cri5riu8k4s8mgahalcnq3lme1&topic=23714.msg4207692] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:01:56,829] [18 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=post;quote=4207692;topic=23714.0;num_replies=6;sesc=a46e77d3c976e4a5511c175179efeb1b] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:01:57,962] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&topic=886735.540] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:01:58,935] [17 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&topic=886735.555] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:01:59,912] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=cri5riu8k4s8mgahalcnq3lme1&topic=23714.msg12422822] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:02:00,945] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=post;quote=12422822;topic=23714.0;num_replies=6;sesc=a46e77d3c976e4a5511c175179efeb1b] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:02:02,006] [17 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&topicrefid=19;topic=886735.msg32225784] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:02:02,939] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=cri5riu8k4s8mgahalcnq3lme1&topic=23714.msg31347601] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:02:03,987] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=j4umjohm8dg7mfjokuhb32qku1&topic=629783.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:02:34,712] [17 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=post;quote=31347601;topic=23714.0;num_replies=6;sesc=a46e77d3c976e4a5511c175179efeb1b] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:03:03,264] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=cri5riu8k4s8mgahalcnq3lme1&topic=891992] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:11:08,215] [5  ] [INFO ] - About to crawl site [http://www.bg-mamma.com/index.php?board=376]
+[2015-12-21 15:11:08,235] [5  ] [INFO ] - Configuration Values:
+[2015-12-21 15:11:08,235] [5  ] [INFO ] -   Abot Version: 1.5.0.138
+[2015-12-21 15:11:08,236] [5  ] [INFO ] -   MaxConcurrentThreads: 3
+[2015-12-21 15:11:08,236] [5  ] [INFO ] -   MaxPagesToCrawl: 100000
+[2015-12-21 15:11:08,236] [5  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-21 15:11:08,236] [5  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-21 15:11:08,236] [5  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-21 15:11:08,236] [5  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-21 15:11:08,236] [5  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-21 15:11:08,236] [5  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-21 15:11:08,237] [5  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-21 15:11:08,237] [5  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-21 15:11:08,237] [5  ] [INFO ] -   IsRespectUrlNamedAnchorOrHashbangEnabled: False
+[2015-12-21 15:11:08,237] [5  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-21 15:11:08,237] [5  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-21 15:11:08,237] [5  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-21 15:11:08,237] [5  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-21 15:11:08,237] [5  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-21 15:11:08,237] [5  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-21 15:11:08,237] [5  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-21 15:11:08,237] [5  ] [INFO ] -   IsSslCertificateValidationEnabled: False
+[2015-12-21 15:11:08,238] [5  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-21 15:11:08,238] [5  ] [INFO ] -   MaxMemoryUsageInMb: 700
+[2015-12-21 15:11:08,238] [5  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-21 15:11:08,238] [5  ] [INFO ] -   MaxCrawlDepth: 100000
+[2015-12-21 15:11:08,238] [5  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-21 15:11:08,238] [5  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-21 15:11:08,238] [5  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-21 15:11:08,238] [5  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-21 15:11:08,238] [5  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-21 15:11:08,238] [5  ] [INFO ] -   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: False
+[2015-12-21 15:11:08,239] [5  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-21 15:11:08,239] [5  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-21 15:11:08,239] [5  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-21 15:11:08,239] [5  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-12-21 15:11:08,239] [5  ] [INFO ] -   IsAlwaysLogin: False
+[2015-12-21 15:11:08,239] [5  ] [INFO ] -   LoginUser: 
+[2015-12-21 15:11:08,239] [5  ] [INFO ] -   LoginPassword: 
+[2015-12-21 15:11:08,239] [5  ] [INFO ] -   key1: value1
+[2015-12-21 15:11:08,239] [5  ] [INFO ] -   key2: value2
+[2015-12-21 15:11:08,240] [5  ] [INFO ] - Starting memory usage for site [http://www.bg-mamma.com/index.php?board=376] is [8mb]
+[2015-12-21 15:11:08,723] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:11:19,597] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?topic=23714.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:11:48,982] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?topic=4823.0] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:12:11,893] [5  ] [INFO ] - Ending memory usage for site [http://www.bg-mamma.com/index.php?board=376] is [33mb]
+[2015-12-21 15:12:11,894] [5  ] [INFO ] - Crawl complete for site [http://www.bg-mamma.com/index.php?board=376]: Crawled [3] pages in [00:01:03.6642004]
+[2015-12-21 15:19:38,989] [8  ] [INFO ] - About to crawl site [http://www.bg-mamma.com/index.php?board=376]
+[2015-12-21 15:19:39,006] [8  ] [INFO ] - Configuration Values:
+[2015-12-21 15:19:39,007] [8  ] [INFO ] -   Abot Version: 1.5.0.138
+[2015-12-21 15:19:39,007] [8  ] [INFO ] -   MaxConcurrentThreads: 3
+[2015-12-21 15:19:39,007] [8  ] [INFO ] -   MaxPagesToCrawl: 100000
+[2015-12-21 15:19:39,007] [8  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-21 15:19:39,007] [8  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-21 15:19:39,007] [8  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-21 15:19:39,007] [8  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-21 15:19:39,008] [8  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-21 15:19:39,008] [8  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-21 15:19:39,008] [8  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-21 15:19:39,008] [8  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-21 15:19:39,008] [8  ] [INFO ] -   IsRespectUrlNamedAnchorOrHashbangEnabled: False
+[2015-12-21 15:19:39,008] [8  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-21 15:19:39,008] [8  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-21 15:19:39,008] [8  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-21 15:19:39,008] [8  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-21 15:19:39,008] [8  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-21 15:19:39,009] [8  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-21 15:19:39,009] [8  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-21 15:19:39,009] [8  ] [INFO ] -   IsSslCertificateValidationEnabled: False
+[2015-12-21 15:19:39,009] [8  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-21 15:19:39,009] [8  ] [INFO ] -   MaxMemoryUsageInMb: 700
+[2015-12-21 15:19:39,009] [8  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-21 15:19:39,009] [8  ] [INFO ] -   MaxCrawlDepth: 100000
+[2015-12-21 15:19:39,009] [8  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-21 15:19:39,009] [8  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-21 15:19:39,009] [8  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-21 15:19:39,011] [8  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-21 15:19:39,012] [8  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-21 15:19:39,012] [8  ] [INFO ] -   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: False
+[2015-12-21 15:19:39,013] [8  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-21 15:19:39,013] [8  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-21 15:19:39,013] [8  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-21 15:19:39,013] [8  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-12-21 15:19:39,013] [8  ] [INFO ] -   IsAlwaysLogin: False
+[2015-12-21 15:19:39,013] [8  ] [INFO ] -   LoginUser: 
+[2015-12-21 15:19:39,013] [8  ] [INFO ] -   LoginPassword: 
+[2015-12-21 15:19:39,013] [8  ] [INFO ] -   key1: value1
+[2015-12-21 15:19:39,013] [8  ] [INFO ] -   key2: value2
+[2015-12-21 15:19:39,014] [8  ] [INFO ] - Starting memory usage for site [http://www.bg-mamma.com/index.php?board=376] is [18mb]
+[2015-12-21 15:19:39,537] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:19:47,553] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=368] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:19:58,887] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=370] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:20:04,044] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?topic=23714.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:20:21,855] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=21.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:21:50,047] [6  ] [INFO ] - About to crawl site [http://www.bg-mamma.com/index.php?board=376]
+[2015-12-21 15:21:50,066] [6  ] [INFO ] - Configuration Values:
+[2015-12-21 15:21:50,067] [6  ] [INFO ] -   Abot Version: 1.5.0.138
+[2015-12-21 15:21:50,067] [6  ] [INFO ] -   MaxConcurrentThreads: 3
+[2015-12-21 15:21:50,067] [6  ] [INFO ] -   MaxPagesToCrawl: 100000
+[2015-12-21 15:21:50,067] [6  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-21 15:21:50,068] [6  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-21 15:21:50,068] [6  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-21 15:21:50,068] [6  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-21 15:21:50,068] [6  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-21 15:21:50,068] [6  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-21 15:21:50,068] [6  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-21 15:21:50,071] [6  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-21 15:21:50,072] [6  ] [INFO ] -   IsRespectUrlNamedAnchorOrHashbangEnabled: False
+[2015-12-21 15:21:50,072] [6  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-21 15:21:50,072] [6  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-21 15:21:50,072] [6  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-21 15:21:50,072] [6  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-21 15:21:50,072] [6  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-21 15:21:50,072] [6  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-21 15:21:50,072] [6  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-21 15:21:50,073] [6  ] [INFO ] -   IsSslCertificateValidationEnabled: False
+[2015-12-21 15:21:50,073] [6  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-21 15:21:50,073] [6  ] [INFO ] -   MaxMemoryUsageInMb: 700
+[2015-12-21 15:21:50,073] [6  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-21 15:21:50,073] [6  ] [INFO ] -   MaxCrawlDepth: 100000
+[2015-12-21 15:21:50,073] [6  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-21 15:21:50,073] [6  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-21 15:21:50,073] [6  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-21 15:21:50,074] [6  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-21 15:21:50,074] [6  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-21 15:21:50,074] [6  ] [INFO ] -   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: False
+[2015-12-21 15:21:50,074] [6  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-21 15:21:50,074] [6  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-21 15:21:50,074] [6  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-21 15:21:50,074] [6  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-12-21 15:21:50,075] [6  ] [INFO ] -   IsAlwaysLogin: False
+[2015-12-21 15:21:50,075] [6  ] [INFO ] -   LoginUser: 
+[2015-12-21 15:21:50,075] [6  ] [INFO ] -   LoginPassword: 
+[2015-12-21 15:21:50,075] [6  ] [INFO ] -   key1: value1
+[2015-12-21 15:21:50,075] [6  ] [INFO ] -   key2: value2
+[2015-12-21 15:21:50,075] [6  ] [INFO ] - Starting memory usage for site [http://www.bg-mamma.com/index.php?board=376] is [17mb]
+[2015-12-21 15:21:53,762] [7  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:21:58,494] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?topic=23714.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:22:05,977] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?topic=4823.0] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:22:12,809] [6  ] [INFO ] - Ending memory usage for site [http://www.bg-mamma.com/index.php?board=376] is [10mb]
+[2015-12-21 15:22:12,809] [6  ] [INFO ] - Crawl complete for site [http://www.bg-mamma.com/index.php?board=376]: Crawled [3] pages in [00:00:22.7296841]
+[2015-12-21 15:24:01,956] [8  ] [INFO ] - About to crawl site [http://www.bg-mamma.com/index.php?board=376]
+[2015-12-21 15:24:01,978] [8  ] [INFO ] - Configuration Values:
+[2015-12-21 15:24:01,978] [8  ] [INFO ] -   Abot Version: 1.5.0.138
+[2015-12-21 15:24:01,980] [8  ] [INFO ] -   MaxConcurrentThreads: 3
+[2015-12-21 15:24:01,981] [8  ] [INFO ] -   MaxPagesToCrawl: 100000
+[2015-12-21 15:24:01,983] [8  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-21 15:24:01,983] [8  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-21 15:24:01,983] [8  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-21 15:24:01,983] [8  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-21 15:24:01,983] [8  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-21 15:24:01,983] [8  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-21 15:24:01,984] [8  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-21 15:24:01,984] [8  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-21 15:24:01,984] [8  ] [INFO ] -   IsRespectUrlNamedAnchorOrHashbangEnabled: False
+[2015-12-21 15:24:01,984] [8  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-21 15:24:01,984] [8  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-21 15:24:01,984] [8  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-21 15:24:01,984] [8  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-21 15:24:01,984] [8  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-21 15:24:01,985] [8  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-21 15:24:01,985] [8  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-21 15:24:01,985] [8  ] [INFO ] -   IsSslCertificateValidationEnabled: False
+[2015-12-21 15:24:01,985] [8  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-21 15:24:01,985] [8  ] [INFO ] -   MaxMemoryUsageInMb: 700
+[2015-12-21 15:24:01,985] [8  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-21 15:24:01,985] [8  ] [INFO ] -   MaxCrawlDepth: 100000
+[2015-12-21 15:24:01,985] [8  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-21 15:24:01,986] [8  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-21 15:24:01,986] [8  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-21 15:24:01,986] [8  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-21 15:24:01,986] [8  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-21 15:24:01,986] [8  ] [INFO ] -   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: False
+[2015-12-21 15:24:01,986] [8  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-21 15:24:01,987] [8  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-21 15:24:01,987] [8  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-21 15:24:01,987] [8  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-12-21 15:24:01,987] [8  ] [INFO ] -   IsAlwaysLogin: False
+[2015-12-21 15:24:01,987] [8  ] [INFO ] -   LoginUser: 
+[2015-12-21 15:24:01,987] [8  ] [INFO ] -   LoginPassword: 
+[2015-12-21 15:24:01,988] [8  ] [INFO ] -   key1: value1
+[2015-12-21 15:24:01,988] [8  ] [INFO ] -   key2: value2
+[2015-12-21 15:24:01,988] [8  ] [INFO ] - Starting memory usage for site [http://www.bg-mamma.com/index.php?board=376] is [18mb]
+[2015-12-21 15:24:02,882] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:24:08,789] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?topic=23714.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-21 15:24:13,162] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?topic=4823.0] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-21 15:24:16,646] [8  ] [INFO ] - Ending memory usage for site [http://www.bg-mamma.com/index.php?board=376] is [24mb]
+[2015-12-21 15:24:16,647] [8  ] [INFO ] - Crawl complete for site [http://www.bg-mamma.com/index.php?board=376]: Crawled [3] pages in [00:00:14.6564788]
+[2015-12-22 10:22:01,394] [5  ] [INFO ] - About to crawl site [http://www.bg-mamma.com/index.php?board=376]
+[2015-12-22 10:22:01,413] [5  ] [INFO ] - Configuration Values:
+[2015-12-22 10:22:01,413] [5  ] [INFO ] -   Abot Version: 1.5.0.138
+[2015-12-22 10:22:01,417] [5  ] [INFO ] -   MaxConcurrentThreads: 3
+[2015-12-22 10:22:01,418] [5  ] [INFO ] -   MaxPagesToCrawl: 100000
+[2015-12-22 10:22:01,418] [5  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-22 10:22:01,418] [5  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-22 10:22:01,418] [5  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-22 10:22:01,418] [5  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-22 10:22:01,418] [5  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-22 10:22:01,418] [5  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-22 10:22:01,418] [5  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-22 10:22:01,419] [5  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-22 10:22:01,419] [5  ] [INFO ] -   IsRespectUrlNamedAnchorOrHashbangEnabled: False
+[2015-12-22 10:22:01,419] [5  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-22 10:22:01,419] [5  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-22 10:22:01,419] [5  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-22 10:22:01,419] [5  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-22 10:22:01,419] [5  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-22 10:22:01,419] [5  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-22 10:22:01,420] [5  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-22 10:22:01,420] [5  ] [INFO ] -   IsSslCertificateValidationEnabled: False
+[2015-12-22 10:22:01,420] [5  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-22 10:22:01,420] [5  ] [INFO ] -   MaxMemoryUsageInMb: 700
+[2015-12-22 10:22:01,420] [5  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-22 10:22:01,420] [5  ] [INFO ] -   MaxCrawlDepth: 100000
+[2015-12-22 10:22:01,420] [5  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-22 10:22:01,420] [5  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-22 10:22:01,421] [5  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-22 10:22:01,421] [5  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-22 10:22:01,421] [5  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-22 10:22:01,421] [5  ] [INFO ] -   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: False
+[2015-12-22 10:22:01,429] [5  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-22 10:22:01,429] [5  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-22 10:22:01,429] [5  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-22 10:22:01,429] [5  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-12-22 10:22:01,430] [5  ] [INFO ] -   IsAlwaysLogin: False
+[2015-12-22 10:22:01,430] [5  ] [INFO ] -   LoginUser: 
+[2015-12-22 10:22:01,430] [5  ] [INFO ] -   LoginPassword: 
+[2015-12-22 10:22:01,430] [5  ] [INFO ] -   key1: value1
+[2015-12-22 10:22:01,430] [5  ] [INFO ] -   key2: value2
+[2015-12-22 10:22:01,431] [5  ] [INFO ] - Starting memory usage for site [http://www.bg-mamma.com/index.php?board=376] is [21mb]
+[2015-12-22 10:22:01,951] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 10:22:34,858] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?topic=23714.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 10:22:53,889] [7  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?topic=4823.0] Parent:[http://www.bg-mamma.com/index.php?topic=23714.0] Retry:[0]
+[2015-12-22 10:23:12,096] [5  ] [INFO ] - Ending memory usage for site [http://www.bg-mamma.com/index.php?board=376] is [25mb]
+[2015-12-22 10:23:12,098] [5  ] [INFO ] - Crawl complete for site [http://www.bg-mamma.com/index.php?board=376]: Crawled [3] pages in [00:01:10.6645857]
+[2015-12-22 10:24:26,834] [8  ] [INFO ] - About to crawl site [http://www.bg-mamma.com/index.php?board=376]
+[2015-12-22 10:24:26,857] [8  ] [INFO ] - Configuration Values:
+[2015-12-22 10:24:26,857] [8  ] [INFO ] -   Abot Version: 1.5.0.138
+[2015-12-22 10:24:26,858] [8  ] [INFO ] -   MaxConcurrentThreads: 3
+[2015-12-22 10:24:26,858] [8  ] [INFO ] -   MaxPagesToCrawl: 100000
+[2015-12-22 10:24:26,858] [8  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-22 10:24:26,858] [8  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-22 10:24:26,858] [8  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-22 10:24:26,858] [8  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-22 10:24:26,858] [8  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-22 10:24:26,858] [8  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-22 10:24:26,858] [8  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-22 10:24:26,859] [8  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-22 10:24:26,859] [8  ] [INFO ] -   IsRespectUrlNamedAnchorOrHashbangEnabled: False
+[2015-12-22 10:24:26,859] [8  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-22 10:24:26,859] [8  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-22 10:24:26,859] [8  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-22 10:24:26,859] [8  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-22 10:24:26,859] [8  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-22 10:24:26,859] [8  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-22 10:24:26,859] [8  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-22 10:24:26,859] [8  ] [INFO ] -   IsSslCertificateValidationEnabled: False
+[2015-12-22 10:24:26,859] [8  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-22 10:24:26,859] [8  ] [INFO ] -   MaxMemoryUsageInMb: 700
+[2015-12-22 10:24:26,860] [8  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-22 10:24:26,860] [8  ] [INFO ] -   MaxCrawlDepth: 100000
+[2015-12-22 10:24:26,860] [8  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-22 10:24:26,860] [8  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-22 10:24:26,860] [8  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-22 10:24:26,860] [8  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-22 10:24:26,860] [8  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-22 10:24:26,860] [8  ] [INFO ] -   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: False
+[2015-12-22 10:24:26,860] [8  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-22 10:24:26,860] [8  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-22 10:24:26,860] [8  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-22 10:24:26,861] [8  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-12-22 10:24:26,861] [8  ] [INFO ] -   IsAlwaysLogin: False
+[2015-12-22 10:24:26,861] [8  ] [INFO ] -   LoginUser: 
+[2015-12-22 10:24:26,861] [8  ] [INFO ] -   LoginPassword: 
+[2015-12-22 10:24:26,861] [8  ] [INFO ] -   key1: value1
+[2015-12-22 10:24:26,861] [8  ] [INFO ] -   key2: value2
+[2015-12-22 10:24:26,861] [8  ] [INFO ] - Starting memory usage for site [http://www.bg-mamma.com/index.php?board=376] is [8mb]
+[2015-12-22 10:24:27,323] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 10:24:32,204] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?action=showNews;id=5800] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 10:26:06,201] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=uj9b8h8shv2dj6d955eaqrcvu2&action=activate] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 10:26:10,651] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=uj9b8h8shv2dj6d955eaqrcvu2&action=explore] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 10:26:13,223] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=uj9b8h8shv2dj6d955eaqrcvu2&action=reminder] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 10:26:17,449] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/?action=landing;client=grijazakosata] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 10:26:26,977] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=uj9b8h8shv2dj6d955eaqrcvu2&] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 10:26:30,322] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=uj9b8h8shv2dj6d955eaqrcvu2&action=register] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 10:26:33,232] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=368] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 10:26:36,758] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/?action=landing;client=NiveaBaby] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 10:26:39,811] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=370] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 10:33:11,722] [10 ] [INFO ] - About to crawl site [http://www.bg-mamma.com/index.php?board=376]
+[2015-12-22 10:33:11,740] [10 ] [INFO ] - Configuration Values:
+[2015-12-22 10:33:11,740] [10 ] [INFO ] -   Abot Version: 1.5.0.138
+[2015-12-22 10:33:11,741] [10 ] [INFO ] -   MaxConcurrentThreads: 3
+[2015-12-22 10:33:11,741] [10 ] [INFO ] -   MaxPagesToCrawl: 100000
+[2015-12-22 10:33:11,741] [10 ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-22 10:33:11,741] [10 ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-22 10:33:11,741] [10 ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-22 10:33:11,741] [10 ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-22 10:33:11,741] [10 ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-22 10:33:11,741] [10 ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-22 10:33:11,741] [10 ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-22 10:33:11,741] [10 ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-22 10:33:11,741] [10 ] [INFO ] -   IsRespectUrlNamedAnchorOrHashbangEnabled: False
+[2015-12-22 10:33:11,742] [10 ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-22 10:33:11,742] [10 ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-22 10:33:11,742] [10 ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-22 10:33:11,742] [10 ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-22 10:33:11,742] [10 ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-22 10:33:11,742] [10 ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-22 10:33:11,742] [10 ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-22 10:33:11,742] [10 ] [INFO ] -   IsSslCertificateValidationEnabled: False
+[2015-12-22 10:33:11,742] [10 ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-22 10:33:11,742] [10 ] [INFO ] -   MaxMemoryUsageInMb: 700
+[2015-12-22 10:33:11,742] [10 ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-22 10:33:11,742] [10 ] [INFO ] -   MaxCrawlDepth: 100000
+[2015-12-22 10:33:11,743] [10 ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-22 10:33:11,743] [10 ] [INFO ] -   MaxRetryCount: 0
+[2015-12-22 10:33:11,743] [10 ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-22 10:33:11,743] [10 ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-22 10:33:11,743] [10 ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-22 10:33:11,743] [10 ] [INFO ] -   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: False
+[2015-12-22 10:33:11,743] [10 ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-22 10:33:11,743] [10 ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-22 10:33:11,743] [10 ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-22 10:33:11,743] [10 ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-12-22 10:33:11,743] [10 ] [INFO ] -   IsAlwaysLogin: False
+[2015-12-22 10:33:11,743] [10 ] [INFO ] -   LoginUser: 
+[2015-12-22 10:33:11,744] [10 ] [INFO ] -   LoginPassword: 
+[2015-12-22 10:33:11,744] [10 ] [INFO ] -   key1: value1
+[2015-12-22 10:33:11,744] [10 ] [INFO ] -   key2: value2
+[2015-12-22 10:33:11,744] [10 ] [INFO ] - Starting memory usage for site [http://www.bg-mamma.com/index.php?board=376] is [18mb]
+[2015-12-22 10:33:25,786] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 10:37:58,846] [7  ] [INFO ] - About to crawl site [http://www.bg-mamma.com/index.php?board=376]
+[2015-12-22 10:37:58,862] [7  ] [INFO ] - Configuration Values:
+[2015-12-22 10:37:58,862] [7  ] [INFO ] -   Abot Version: 1.5.0.138
+[2015-12-22 10:37:58,863] [7  ] [INFO ] -   MaxConcurrentThreads: 3
+[2015-12-22 10:37:58,863] [7  ] [INFO ] -   MaxPagesToCrawl: 100000
+[2015-12-22 10:37:58,863] [7  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-22 10:37:58,863] [7  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-22 10:37:58,863] [7  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-22 10:37:58,863] [7  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-22 10:37:58,863] [7  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-22 10:37:58,864] [7  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-22 10:37:58,864] [7  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-22 10:37:58,864] [7  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-22 10:37:58,864] [7  ] [INFO ] -   IsRespectUrlNamedAnchorOrHashbangEnabled: False
+[2015-12-22 10:37:58,864] [7  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-22 10:37:58,864] [7  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-22 10:37:58,864] [7  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-22 10:37:58,864] [7  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-22 10:37:58,864] [7  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-22 10:37:58,865] [7  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-22 10:37:58,865] [7  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-22 10:37:58,865] [7  ] [INFO ] -   IsSslCertificateValidationEnabled: False
+[2015-12-22 10:37:58,865] [7  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-22 10:37:58,865] [7  ] [INFO ] -   MaxMemoryUsageInMb: 700
+[2015-12-22 10:37:58,865] [7  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-22 10:37:58,865] [7  ] [INFO ] -   MaxCrawlDepth: 100000
+[2015-12-22 10:37:58,865] [7  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-22 10:37:58,865] [7  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-22 10:37:58,865] [7  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-22 10:37:58,866] [7  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-22 10:37:58,866] [7  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-22 10:37:58,866] [7  ] [INFO ] -   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: False
+[2015-12-22 10:37:58,866] [7  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-22 10:37:58,866] [7  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-22 10:37:58,866] [7  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-22 10:37:58,866] [7  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-12-22 10:37:58,866] [7  ] [INFO ] -   IsAlwaysLogin: False
+[2015-12-22 10:37:58,866] [7  ] [INFO ] -   LoginUser: 
+[2015-12-22 10:37:58,867] [7  ] [INFO ] -   LoginPassword: 
+[2015-12-22 10:37:58,867] [7  ] [INFO ] -   key1: value1
+[2015-12-22 10:37:58,867] [7  ] [INFO ] -   key2: value2
+[2015-12-22 10:37:58,867] [7  ] [INFO ] - Starting memory usage for site [http://www.bg-mamma.com/index.php?board=376] is [29mb]
+[2015-12-22 10:38:03,166] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 10:38:11,937] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=8agcueisr59ll9kavjr8h4el33&board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 12:22:10,311] [6  ] [INFO ] - About to crawl site [http://www.bg-mamma.com/index.php?board=376]
+[2015-12-22 12:22:10,328] [6  ] [INFO ] - Configuration Values:
+[2015-12-22 12:22:10,329] [6  ] [INFO ] -   Abot Version: 1.5.0.138
+[2015-12-22 12:22:10,329] [6  ] [INFO ] -   MaxConcurrentThreads: 3
+[2015-12-22 12:22:10,329] [6  ] [INFO ] -   MaxPagesToCrawl: 100000
+[2015-12-22 12:22:10,329] [6  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-22 12:22:10,329] [6  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-22 12:22:10,330] [6  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-22 12:22:10,330] [6  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-22 12:22:10,330] [6  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-22 12:22:10,330] [6  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-22 12:22:10,330] [6  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-22 12:22:10,330] [6  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-22 12:22:10,330] [6  ] [INFO ] -   IsRespectUrlNamedAnchorOrHashbangEnabled: False
+[2015-12-22 12:22:10,330] [6  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-22 12:22:10,330] [6  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-22 12:22:10,331] [6  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-22 12:22:10,331] [6  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-22 12:22:10,331] [6  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-22 12:22:10,331] [6  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-22 12:22:10,331] [6  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-22 12:22:10,331] [6  ] [INFO ] -   IsSslCertificateValidationEnabled: False
+[2015-12-22 12:22:10,331] [6  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-22 12:22:10,331] [6  ] [INFO ] -   MaxMemoryUsageInMb: 700
+[2015-12-22 12:22:10,331] [6  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-22 12:22:10,332] [6  ] [INFO ] -   MaxCrawlDepth: 100000
+[2015-12-22 12:22:10,332] [6  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-22 12:22:10,332] [6  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-22 12:22:10,332] [6  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-22 12:22:10,332] [6  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-22 12:22:10,332] [6  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-22 12:22:10,332] [6  ] [INFO ] -   IsRespectHttpXRobotsTagHeaderNoFollowEnabled: False
+[2015-12-22 12:22:10,332] [6  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-22 12:22:10,333] [6  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-22 12:22:10,333] [6  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-22 12:22:10,333] [6  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-12-22 12:22:10,333] [6  ] [INFO ] -   IsAlwaysLogin: False
+[2015-12-22 12:22:10,333] [6  ] [INFO ] -   LoginUser: 
+[2015-12-22 12:22:10,333] [6  ] [INFO ] -   LoginPassword: 
+[2015-12-22 12:22:10,333] [6  ] [INFO ] -   key1: value1
+[2015-12-22 12:22:10,333] [6  ] [INFO ] -   key2: value2
+[2015-12-22 12:22:10,334] [6  ] [INFO ] - Starting memory usage for site [http://www.bg-mamma.com/index.php?board=376] is [22mb]
+[2015-12-22 12:22:10,786] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 12:22:30,646] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=9831r564th0p8lp4v2pjv9bkv4&board=376] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 12:22:53,306] [8  ] [INFO ] - Page crawl complete, Status:[NA] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=9831r564th0p8lp4v2pjv9bkv4&topic=856707] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 12:23:17,630] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?topic=23714.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 12:23:56,971] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=9831r564th0p8lp4v2pjv9bkv4&board=376.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 12:24:11,643] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=9831r564th0p8lp4v2pjv9bkv4&board=376.60] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 12:24:28,774] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=9831r564th0p8lp4v2pjv9bkv4&board=376.30] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 12:24:31,766] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=9831r564th0p8lp4v2pjv9bkv4&board=376.90] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 12:24:35,627] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=9831r564th0p8lp4v2pjv9bkv4&board=376.150] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 12:33:55,815] [8  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=9831r564th0p8lp4v2pjv9bkv4&board=376.1200] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 12:33:56,199] [5  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=9831r564th0p8lp4v2pjv9bkv4&board=376.120] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 12:33:57,762] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=9831r564th0p8lp4v2pjv9bkv4&board=376;sort=subject] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 12:33:58,541] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=9831r564th0p8lp4v2pjv9bkv4&board=376;sort=last_post] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 12:34:00,227] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=9831r564th0p8lp4v2pjv9bkv4&topic=884670.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 12:34:20,711] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=9831r564th0p8lp4v2pjv9bkv4&topicrefid=19;topic=884670.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 12:34:28,387] [21 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=9831r564th0p8lp4v2pjv9bkv4&topic=91330.0] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 12:34:48,261] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=9831r564th0p8lp4v2pjv9bkv4&topic=91330.15] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
+[2015-12-22 12:35:02,557] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.bg-mamma.com/index.php?PHPSESSID=9831r564th0p8lp4v2pjv9bkv4&topicrefid=19;topic=91330.msg32180246] Parent:[http://www.bg-mamma.com/index.php?board=376] Retry:[0]
